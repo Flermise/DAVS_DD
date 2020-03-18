@@ -1,0 +1,1007 @@
+2020-03-18 15:25:45 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）',
+ 'agent_contact': '郑亚维、孙芳懿  010-52808100、010-52808030  ',
+ 'agent_name': '北京市海淀区政府采购中心',
+ 'annou_time': '2019年11月05日  09:08',
+ 'bid_opening_address': '北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）6层西侧第五开标室A',
+ 'bid_opening_time': '2019年11月26日  09:30',
+ 'bidding_doc_address': '（1）办理北京市法人一证通(CA数字证书)请登录北京市海淀区公共资源交易信息网 '
+                        '(http://www.bjhd.gov.cn/ggzyjy/)，查阅【服务指南】——【CA办理】栏目，按照程序要求办理。（2）新用户注册 '
+                        '取得CA数字证书后，请登录网站主页(http://www.bjhd.gov.cn/ggzyjy/），选择【网上办事】——【投标人】栏目，应用CA数字证书进行新用户注册。（3）标书下载及投标报名完成注册后，通过使用CA数字证书即可登录系统免费下载招标文件，下载预览招标文件后，请在规定时间内登录系统进行投标报名。如未按要求进行投标报名，视同放弃本项目投标。备注：如已办理北京市法人一证通(CA数字证书)，且完成新用户注册，投标报名程序请忽略上述（1）、（2）项内容。',
+ 'bidding_doc_price': '￥0',
+ 'bidding_doc_time': ' 2019年11月04日  15:03\xa0\xa0至\xa0\xa02019年11月11日  17:00',
+ 'budget_money': '￥364.602500万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/通用设备/计算机设备及软件/终端设备/触摸式终端设备',
+ 'project_contact': '郑亚维、孙芳懿',
+ 'project_name': '中国农业大学附属中学申报“农业附中智慧校园建设-数字多媒体教学系统建设项目”政府采购项目',
+ 'project_num': 'HCZX2019-012',
+ 'project_phone': '010-52808100、010-52808030  ',
+ 'regions': '海淀区',
+ 'soft_hard': '',
+ 'text_path': '20191105_13258926.txt',
+ 'txt_content': '北京市海淀区政府采购中心   '
+                '受中国农业大学附属中学委托，根据《中华人民共和国政府采购法》等有关规定，现对中国农业大学附属中学申报“农业附中智慧校园建设-数字多媒体教学系统建设项目”政府采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：中国农业大学附属中学申报“农业附中智慧校园建设-数字多媒体教学系统建设项目”政府采购项目\n'
+                '项目编号：HCZX2019-012\n'
+                '项目联系方式：\n'
+                '项目联系人：郑亚维、孙芳懿\n'
+                '项目联系电话：010-52808100、010-52808030\n'
+                '采购单位联系方式：\n'
+                '采购单位：中国农业大学附属中学\n'
+                '地址：北京市海淀区圆明园西路3号\n'
+                '联系方式：赵志宇  010-62818574\n'
+                '代理机构联系方式：\n'
+                '代理机构：北京市海淀区政府采购中心\n'
+                '代理机构联系人：郑亚维、孙芳懿  010-52808100、010-52808030\n'
+                '代理机构地址： 北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '序号\n'
+                '名称\n'
+                '数量\n'
+                '用途\n'
+                '简要需求\n'
+                '1\n'
+                '触控一体机\n'
+                '47 台\n'
+                '教学\n'
+                '多媒体设备\n'
+                '2\n'
+                '电脑模块\n'
+                '47块\n'
+                '3\n'
+                '组合式推拉黑板\n'
+                '47块\n'
+                '4\n'
+                '系统集成费\n'
+                '1项\n'
+                '（用途及技术需求详见招标文件第二册第八章）\n'
+                '二、投标人的资格要求：\n'
+                '符合《中华人民共和国政府采购法》第22条要求\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：364.6025 万元（人民币）\n'
+                '时间：2019年11月04日 15:03\xa0至\xa02019年11月11日 17:00(双休日及法定节假日除外)\n'
+                '地点：（1）办理北京市法人一证通(CA数字证书)请登录北京市海淀区公共资源交易信息网 '
+                '(http://www.bjhd.gov.cn/ggzyjy/)，查阅【服务指南】——【CA办理】栏目，按照程序要求办理。（2）新用户注册 '
+                '取得CA数字证书后，请登录网站主页(http://www.bjhd.gov.cn/ggzyjy/），选择【网上办事】——【投标人】栏目，应用CA数字证书进行新用户注册。（3）标书下载及投标报名完成注册后，通过使用CA数字证书即可登录系统免费下载招标文件，下载预览招标文件后，请在规定时间内登录系统进行投标报名。如未按要求进行投标报名，视同放弃本项目投标。备注：如已办理北京市法人一证通(CA数字证书)，且完成新用户注册，投标报名程序请忽略上述（1）、（2）项内容。\n'
+                '招标文件售价：￥0.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：（1）办理北京市法人一证通(CA数字证书) 请登录北京市海淀区公共资源交易信息网 '
+                '(http://www.bjhd.gov.cn/ggzyjy/)，查阅【服务指南】——【CA办理】栏目，按照程序要求办理。 '
+                '（2）新用户注册  '
+                '取得CA数字证书后，请登录网站主页(http://www.bjhd.gov.cn/ggzyjy/），选择【网上办事】——【投标人】栏目，应用CA数字证书进行新用户注册。 '
+                '（3）标书下载及投标报名 '
+                '完成注册后，通过使用CA数字证书即可登录系统免费下载招标文件，下载预览招标文件后，请在规定时间内登录系统进行投标报名。如未按要求进行投标报名，视同放弃本项目投标。 '
+                '备注：如已办理北京市法人一证通(CA数字证书)，且完成新用户注册，投标报名程序请忽略上述（1）、（2）项内容。\n'
+                '四、投标截止时间：2019年11月26日 09:30\n'
+                '五、开标时间：2019年11月26日 09:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）6层西侧第五开标室A\n'
+                '七、其它补充事宜\n'
+                '采购编号：海采（2019）1530号\n'
+                '项目预算金额：人民币3646025元，超预算报价为无效标。\n'
+                '招标公告公示期限：本公告发布之日起5个工作日。\n'
+                '投标文件请于开标当日投标截止时间之前送至开标地点，逾期收到或不符合规定的投标文件恕不接受。\n'
+                '是否接受联合体投标：否是否有询标：否\xa0\xa0\xa0 是否现场踏勘：否\n'
+                '传\xa0 真：010-52808094\n'
+                '邮\xa0 编：100193\n'
+                '。\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '详见招标文件',
+ 'unit': '中国农业大学附属中学',
+ 'unit_address': '北京市海淀区圆明园西路3号',
+ 'unit_contact_infor': '赵志宇  010-62818574',
+ 'url': 'http://www.ccgp.gov.cn/cggg/dfgg/gkzb/201911/t20191105_13258926.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    self._do_GKZB_insert(item)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 15:53:48 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市西城区车公庄大街9号院五栋大楼C座502',
+ 'agent_contact': '钮维儒18610294850',
+ 'agent_name': '中建精诚工程咨询有限公司',
+ 'annou_time': '2019年08月15日  13:11',
+ 'bid_opening_address': '北京市西城区车公庄大街9号院五栋大楼C座502会议室',
+ 'bid_opening_time': '2019年09月04日  09:00',
+ 'bidding_doc_address': '北京市西城区车公庄大街9号院五栋大楼C座502（中建精诚工程咨询有限公司）    '
+                        '招标文件获取方式：现场购买，报名领取招标文件时，请携带营业执照副本复印件、电力工程施工总承包资质证书复印件、安全生产许可证复印件、近三年（2016年、2017 '
+                        '年、2018年）财务报表、2 '
+                        '个及以上类似业绩合同复印件、拟派项目经理机电专业建造师注册证书和安全生产考核合格证书（B '
+                        '本）复印件及项目经理至少有一个 200 '
+                        '万元以上的施工用电业绩合同复印件（合同应能体现拟派项目经理为项目负责人身份，或项目单位出具的证明文件等）、外省市的企业要求有进京备案证明（适用于外省市企业）和经办人的授权委托书及身份证复印件（以上资料均需一份，并按顺序装订成册，不符合要求的不予受理）',
+ 'bidding_doc_price': '￥500',
+ 'bidding_doc_time': ' 2019年08月15日  09:00\xa0\xa0至\xa0\xa02019年08月23日  16:00',
+ 'budget_money': '￥209.072838万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/专用设备/炼焦和金属冶炼轧制设备/输电线路',
+ 'project_contact': '徐畅',
+ 'project_name': '北京信息科技大学新校区新装630KVA*2临时施工用电工程',
+ 'project_num': 'ZJJC-2019-ZC04',
+ 'project_phone': '13661297020',
+ 'regions': '海淀区',
+ 'soft_hard': '',
+ 'text_path': '20190815_12686068.txt',
+ 'txt_content': '中建精诚工程咨询有限公司受北京信息科技大学委托，根据《中华人民共和国政府采购法》等有关规定，现对北京信息科技大学新校区新装630KVA*2临时施工用电工程进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京信息科技大学新校区新装630KVA*2临时施工用电工程\n'
+                '项目编号：ZJJC-2019-ZC04\n'
+                '项目联系方式：\n'
+                '项目联系人：徐畅\n'
+                '项目联系电话：13661297020\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京信息科技大学\n'
+                '地址：北京市海淀区清河小营东路12号\n'
+                '联系方式：严老师\n'
+                '代理机构联系方式：\n'
+                '代理机构：中建精诚工程咨询有限公司\n'
+                '代理机构联系人：钮维儒18610294850\n'
+                '代理机构地址： 北京市西城区车公庄大街9号院五栋大楼C座502\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '图纸及工程量清单范围内全部工程施工，详见招标文件\n'
+                '二、投标人的资格要求：\n'
+                '在中华人民共和国境内，依照《中华人民共和国公司法》注册的、具有独立承担民事责任的能力的投标人；具有电力工程施工总承包叁级(含)及以上资质； '
+                '具有安全生产许可证；近三年（2016年、2017 年、2018年）良好的财务状况； '
+                '参加本次投标近三年内，没有处于被责令停业；投标资格被取消；财产被接管、冻结；破产等状态；没有发生过骗取中标或严重违约的问题；在 '
+                '2016年8月1日至 2019 年 7月 31 日，具有施工用电工程 2 '
+                '个及以上业绩。上述业绩为投标人独立承揽的类似工程项目：单个合同价款 200 '
+                '万元及以上的施工用电工程，（以单个合同为准）。项目经理应具备机电专业贰级建造师执业资格和在有效期内的安全生产考核合格证书（B '
+                '本），项目经理至少有一个 200 万元以上的施工用电业绩。外省市的企业要求有进京备案证明；本项目不接受联合体投标。\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：209.072838 万元（人民币）\n'
+                '时间：2019年08月15日 09:00\xa0至\xa02019年08月23日 16:00(双休日及法定节假日除外)\n'
+                '地点：北京市西城区车公庄大街9号院五栋大楼C座502（中建精诚工程咨询有限公司）    '
+                '招标文件获取方式：现场购买，报名领取招标文件时，请携带营业执照副本复印件、电力工程施工总承包资质证书复印件、安全生产许可证复印件、近三年（2016年、2017 '
+                '年、2018年）财务报表、2 个及以上类似业绩合同复印件、拟派项目经理机电专业建造师注册证书和安全生产考核合格证书（B '
+                '本）复印件及项目经理至少有一个 200 '
+                '万元以上的施工用电业绩合同复印件（合同应能体现拟派项目经理为项目负责人身份，或项目单位出具的证明文件等）、外省市的企业要求有进京备案证明（适用于外省市企业）和经办人的授权委托书及身份证复印件（以上资料均需一份，并按顺序装订成册，不符合要求的不予受理）\n'
+                '招标文件售价：￥500.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：现场领取\n'
+                '四、投标截止时间：2019年09月04日 09:00\n'
+                '五、开标时间：2019年09月04日 09:00\n'
+                '六、开标地点：\n'
+                '北京市西城区车公庄大街9号院五栋大楼C座502会议室\n'
+                '七、其它补充事宜\n'
+                '无\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '详见招标文件',
+ 'unit': '北京信息科技大学',
+ 'unit_address': '北京市海淀区清河小营东路12号',
+ 'unit_contact_infor': '严老师',
+ 'url': 'http://www.ccgp.gov.cn/cggg/dfgg/gkzb/201908/t20190815_12686068.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 16:03:10 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01室',
+ 'agent_contact': '王军 010-68290508',
+ 'agent_name': '东方国际招标有限责任公司',
+ 'annou_time': '2019年01月29日  17:01',
+ 'bid_opening_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室',
+ 'bid_opening_time': '2019年02月21日  13:30',
+ 'bidding_doc_address': '招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                        '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年1月29日至2019年2月3日 '
+                        '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                        '号：862081657710001招标文件售后不退。',
+ 'bidding_doc_price': '￥600',
+ 'bidding_doc_time': ' 2019年01月29日  16:20\xa0\xa0至\xa0\xa02019年02月03日  17:00',
+ 'budget_money': '￥235.000000万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/通用设备/仪器仪表/其他仪器仪表',
+ 'project_contact': '王军',
+ 'project_name': '北京大学工学院原子力显微镜招标采购项目',
+ 'project_num': 'OITC-G190310133',
+ 'project_phone': '010-68290508',
+ 'regions': '北京市',
+ 'soft_hard': '',
+ 'text_path': '20190129_11587599.txt',
+ 'txt_content': '东方国际招标有限责任公司受北京大学委托，根据《中华人民共和国政府采购法》等有关规定，现对北京大学工学院原子力显微镜招标采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京大学工学院原子力显微镜招标采购项目\n'
+                '项目编号：OITC-G190310133\n'
+                '项目联系方式：\n'
+                '项目联系人：王军\n'
+                '项目联系电话：010-68290508\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京大学\n'
+                '地址：北京市海淀区颐和园路5号\n'
+                '联系方式：吴老师； 62758587\n'
+                '代理机构联系方式：\n'
+                '代理机构：东方国际招标有限责任公司\n'
+                '代理机构联系人：王军 010-68290508\n'
+                '代理机构地址： 北京市海淀区西三环北路甲2号院科技园6号楼13层01室\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '包号\n'
+                '货物名称\n'
+                '数量\n'
+                '简要技术规格\n'
+                '是否允许采购进口产品\n'
+                '采购预算\n'
+                '1\n'
+                '原子力显微镜\n'
+                '1套\n'
+                '准确地观测样品表面微区(纳米及亚微米尺度)三维形貌，同时对样品表面弹性模量（可测200GPa以上的超硬材料。）、表面电势、表面导电性等物理特性进行研究，适用于多种材料。\n'
+                '是\n'
+                '235\n'
+                '万元\n'
+                '二、投标人的资格要求：\n'
+                '1、\t投标人须符合《中华人民共和国政府采购法》第二十二条的规定；(具体为供应商参加政府采购活动应当具备下列条件：    '
+                '（一）具有独立承担民事责任的能力；    （二）具有良好的商业信誉和健全的财务会计制度；    '
+                '（三）具有履行合同所必需的设备和专业技术能力；    （四）有依法缴纳税收和社会保障资金的良好记录；    '
+                '（五）参加政府采购活动前三年内，在经营活动中没有重大违法记录；    （六）法律、行政法规规定的其他条件。)2、\t'
+                '投标人须在中华人民共和国境内合法注册、有法人资格并符合工商局或相关行业主管部门核准的经营范围或经营许可(境外制造商必须委托国内相关机构或代理商投标)；3、\t'
+                '投标人按照招标公告要求购买了招标文件；4、\t投标人不得为招标人或招标代理机构的附属或相关机构；5、\t'
+                '投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商。6、\t'
+                '本项目不接受联合体投标。\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：235.0 万元（人民币）\n'
+                '时间：2019年01月29日 16:20\xa0至\xa02019年02月03日 17:00(双休日及法定节假日除外)\n'
+                '地点：招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年1月29日至2019年2月3日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '招标文件售价：￥600.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年1月29日至2019年2月3日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '四、投标截止时间：2019年02月21日 13:30\n'
+                '五、开标时间：2019年02月21日 13:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室\n'
+                '七、其它补充事宜\n'
+                '1、所有投标文件都必须附有投标保证金，保证金金额为各包预算的1.5%。投标保证金须在投标截止时间前以电汇或银行保函的形式支付，未按规定提供投标保证金的投标文件将被拒绝。以电汇方式购买招标文件和递交投标保证金的，须在电汇凭据附言栏中写明招标编号、包号及用途（如因未标明招标编号导致投标保证金未能及时到账的，其投标无效）。\n'
+                '2、投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商的查询规定：\n'
+                'a）信用信息查询渠道：“信用中国”网站（www.creditchina.gov.cn）、中国政府采购网（www.ccgp.gov.cn）等。\n'
+                'b）信用信息查询截止时点：同投标截止期，即查询投标人截止到投标截止期的信用信息记录。\n'
+                'c）信用信息查询记录和证据留存的具体方式：信用信息查询记录将以网站截图打印稿形式与其他采购文件一并保存。\n'
+                'd）信用信息的使用规则：如投标人为“信用中国”网站（www.creditchina.gov.cn）中列入失信被执行人或重大税收违法案件当事人名单的供应商，或为中国政府采购网（www.ccgp.gov.cn）政府采购严重违法失信行为记录名单中被财政部门禁止参加政府采购活动的供应商，则其投标将被拒绝。\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '政府采购促进中小企业发展 政府采购支持监狱企业发展 政府采购促进残疾人就业 政府采购鼓励采购节能环保产品',
+ 'unit': '北京大学',
+ 'unit_address': '北京市海淀区颐和园路5号  ',
+ 'unit_contact_infor': '吴老师； 62758587 ',
+ 'url': 'http://www.ccgp.gov.cn/cggg/zygg/gkzb/201901/t20190129_11587599.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 16:03:16 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01室',
+ 'agent_contact': '王军 010-68290508',
+ 'agent_name': '东方国际招标有限责任公司',
+ 'annou_time': '2019年01月29日  17:14',
+ 'bid_opening_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室',
+ 'bid_opening_time': '2019年02月21日  13:30',
+ 'bidding_doc_address': '招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                        '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年1月28日至2019年2月3日 '
+                        '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                        '号：862081657710001招标文件售后不退',
+ 'bidding_doc_price': '￥600',
+ 'bidding_doc_time': ' 2019年01月29日  16:06\xa0\xa0至\xa0\xa02019年02月03日  17:00',
+ 'budget_money': '￥260.000000万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/通用设备/计算机设备及软件/计算机软件/应用软件/行业应用软件',
+ 'project_contact': '王军',
+ 'project_name': '北京大学医学部第三临床医院人工智能临床医学教学辅助数据库采购项目',
+ 'project_num': 'OITC-G190310136',
+ 'project_phone': '010-68290508',
+ 'regions': '北京市',
+ 'soft_hard': '',
+ 'text_path': '20190129_11587772.txt',
+ 'txt_content': '东方国际招标有限责任公司受北京大学医学部第三临床医院委托，根据《中华人民共和国政府采购法》等有关规定，现对北京大学医学部第三临床医院人工智能临床医学教学辅助数据库采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京大学医学部第三临床医院人工智能临床医学教学辅助数据库采购项目\n'
+                '项目编号：OITC-G190310136\n'
+                '项目联系方式：\n'
+                '项目联系人：王军\n'
+                '项目联系电话：010-68290508\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京大学医学部第三临床医院\n'
+                '地址：北京市海淀区学院路38号\n'
+                '联系方式：凌老师；010-82801347\n'
+                '代理机构联系方式：\n'
+                '代理机构：东方国际招标有限责任公司\n'
+                '代理机构联系人：王军 010-68290508\n'
+                '代理机构地址： 北京市海淀区西三环北路甲2号院科技园6号楼13层01室\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '包号\n'
+                '设备名称\n'
+                '数量\n'
+                '预算\n'
+                '简要要求\n'
+                '交货期\n'
+                '交货地点\n'
+                '是否允许采购进口产品\n'
+                '第\n'
+                '1\n'
+                '医学部第三临床医院人工智能临床医学教学辅助数据库采购项目\n'
+                '1套\n'
+                '260万\n'
+                '通过充分利用医院信息化条件，为医学生提供及时、丰富、全面的仿真训练平台，实现提高医学生临床实践能力，加快人才培养进程的目标。\n'
+                '合同签订后60天\n'
+                '北京大学医学部第三临床医院\n'
+                '否\n'
+                '二、投标人的资格要求：\n'
+                '1、\t投标人须符合《中华人民共和国政府采购法》第二十二条的规定；(具体为供应商参加政府采购活动应当具备下列条件：    '
+                '（一）具有独立承担民事责任的能力；    （二）具有良好的商业信誉和健全的财务会计制度；    '
+                '（三）具有履行合同所必需的设备和专业技术能力；    （四）有依法缴纳税收和社会保障资金的良好记录；    '
+                '（五）参加政府采购活动前三年内，在经营活动中没有重大违法记录；    （六）法律、行政法规规定的其他条件。)2、\t'
+                '投标人须在中华人民共和国境内合法注册、有法人资格并符合工商局或相关行业主管部门核准的经营范围或经营许可；3、\t'
+                '投标人按照招标公告要求购买了招标文件；4、\t投标人不得为招标人或招标代理机构的附属或相关机构；5、\t'
+                '投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商。6、\t'
+                '本项目不接受联合体投标。7、\t'
+                '如投标产品涉及到国家强制节能、环保、安全或者其它强制性要求的，则投标人的投标产品必须符合相应规定或要求。\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：260.0 万元（人民币）\n'
+                '时间：2019年01月29日 16:06\xa0至\xa02019年02月03日 17:00(双休日及法定节假日除外)\n'
+                '地点：招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年1月28日至2019年2月3日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退\n'
+                '招标文件售价：￥600.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年1月28日至2019年2月3日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001\n'
+                '四、投标截止时间：2019年02月21日 13:30\n'
+                '五、开标时间：2019年02月21日 13:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室\n'
+                '七、其它补充事宜\n'
+                '1、所有投标文件都必须附有投标保证金，保证金金额为各包预算的1.5%。投标保证金须在投标截止时间前以电汇或银行保函的形式支付，未按规定提供投标保证金的投标文件将被拒绝。以电汇方式购买招标文件和递交投标保证金的，须在电汇凭据附言栏中写明招标编号、包号及用途（如因未标明招标编号导致投标保证金未能及时到账的，其投标无效）。\n'
+                '2、投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商的查询规定：\n'
+                'a）信用信息查询渠道：“信用中国”网站（www.creditchina.gov.cn）、中国政府采购网（www.ccgp.gov.cn）等。\n'
+                'b）信用信息查询截止时点：同投标截止期，即查询投标人截止到投标截止期的信用信息记录。\n'
+                'c）信用信息查询记录和证据留存的具体方式：信用信息查询记录将以网站截图打印稿形式与其他采购文件一并保存。\n'
+                'd）信用信息的使用规则：如投标人为“信用中国”网站（www.creditchina.gov.cn）中列入失信被执行人或重大税收违法案件当事人名单的供应商，或为中国政府采购网（www.ccgp.gov.cn）政府采购严重违法失信行为记录名单中被财政部门禁止参加政府采购活动的供应商，则其投标将被拒绝。\n'
+                '八、采购项目需要落实的政府采购政策：',
+ 'unit': '北京大学医学部第三临床医院',
+ 'unit_address': '北京市海淀区学院路38号',
+ 'unit_contact_infor': '凌老师；010-82801347 ',
+ 'url': 'http://www.ccgp.gov.cn/cggg/zygg/gkzb/201901/t20190129_11587772.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 16:04:11 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01室',
+ 'agent_contact': '王军 010-68290508',
+ 'agent_name': '东方国际招标有限责任公司',
+ 'annou_time': '2019年03月29日  17:22',
+ 'bid_opening_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室',
+ 'bid_opening_time': '2019年04月22日  13:30',
+ 'bidding_doc_address': '有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                        '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年3月29日至2019年4月8日 '
+                        '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                        '号：862081657710001招标文件售后不退。',
+ 'bidding_doc_price': '￥600',
+ 'bidding_doc_time': ' 2019年03月29日  17:17\xa0\xa0至\xa0\xa02019年04月08日  17:00',
+ 'budget_money': '￥180.000000万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/通用设备/仪器仪表/其他仪器仪表',
+ 'project_contact': '王军',
+ 'project_name': '北京大学物理学院量子材料科学中心极低温强磁场系统招标采购项目',
+ 'project_num': 'OITC-G190310032',
+ 'project_phone': '010-68290508',
+ 'regions': '北京市',
+ 'soft_hard': '',
+ 'text_path': '20190329_11831703.txt',
+ 'txt_content': '东方国际招标有限责任公司受北京大学委托，根据《中华人民共和国政府采购法》等有关规定，现对北京大学物理学院量子材料科学中心极低温强磁场系统招标采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京大学物理学院量子材料科学中心极低温强磁场系统招标采购项目\n'
+                '项目编号：OITC-G190310032\n'
+                '项目联系方式：\n'
+                '项目联系人：王军\n'
+                '项目联系电话：010-68290508\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京大学\n'
+                '地址：北京市海淀区颐和园路5号\n'
+                '联系方式：吴老师；62758587\n'
+                '代理机构联系方式：\n'
+                '代理机构：东方国际招标有限责任公司\n'
+                '代理机构联系人：王军 010-68290508\n'
+                '代理机构地址： 北京市海淀区西三环北路甲2号院科技园6号楼13层01室\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '包号\n'
+                '货物名称\n'
+                '数量\n'
+                '简要技术规格\n'
+                '是否允许采购进口产品\n'
+                '采购预算\n'
+                '1\n'
+                '极低温强磁场系统\n'
+                '1套\n'
+                '该装置可以对各类磁性材料在微波频率范围的高频磁学性质进行定标和测试，基于定标和测试结果，可以确定某类型材料在时间分辨X射线吸收谱实验中的研究方案。\n'
+                '是\n'
+                '180\n'
+                '万元\n'
+                '二、投标人的资格要求：\n'
+                '1、\t投标人须符合《中华人民共和国政府采购法》第二十二条的规定；(具体为供应商参加政府采购活动应当具备下列条件：    '
+                '（一）具有独立承担民事责任的能力；    （二）具有良好的商业信誉和健全的财务会计制度；    '
+                '（三）具有履行合同所必需的设备和专业技术能力；    （四）有依法缴纳税收和社会保障资金的良好记录；    '
+                '（五）参加政府采购活动前三年内，在经营活动中没有重大违法记录；    （六）法律、行政法规规定的其他条件。)2、\t'
+                '投标人须在中华人民共和国境内合法注册、有法人资格并符合工商局或相关行业主管部门核准的经营范围或经营许可(境外制造商必须委托国内相关机构或代理商投标)；3、\t'
+                '投标人按照招标公告要求购买了招标文件；4、\t投标人不得为招标人或招标代理机构的附属或相关机构；5、\t'
+                '投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商。6、\t'
+                '本项目不接受联合体投标。\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：180.0 万元（人民币）\n'
+                '时间：2019年03月29日 17:17\xa0至\xa02019年04月08日 17:00(双休日及法定节假日除外)\n'
+                '地点：有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年3月29日至2019年4月8日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '招标文件售价：￥600.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年3月29日至2019年4月8日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '四、投标截止时间：2019年04月22日 13:30\n'
+                '五、开标时间：2019年04月22日 13:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室\n'
+                '七、其它补充事宜\n'
+                '1、所有投标文件都必须附有投标保证金，保证金金额为各包预算的1.5%。投标保证金须在投标截止时间前以电汇或银行保函的形式支付，未按规定提供投标保证金的投标文件将被拒绝。以电汇方式购买招标文件和递交投标保证金的，须在电汇凭据附言栏中写明招标编号、包号及用途（如因未标明招标编号导致投标保证金未能及时到账的，其投标无效）。\n'
+                '2、投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商的查询规定：\n'
+                'a）信用信息查询渠道：“信用中国”网站（www.creditchina.gov.cn）、中国政府采购网（www.ccgp.gov.cn）等。\n'
+                'b）信用信息查询截止时点：同投标截止期，即查询投标人截止到投标截止期的信用信息记录。\n'
+                'c）信用信息查询记录和证据留存的具体方式：信用信息查询记录将以网站截图打印稿形式与其他采购文件一并保存。\n'
+                'd）信用信息的使用规则：如投标人为“信用中国”网站（www.creditchina.gov.cn）中列入失信被执行人或重大税收违法案件当事人名单的供应商，或为中国政府采购网（www.ccgp.gov.cn）政府采购严重违法失信行为记录名单中被财政部门禁止参加政府采购活动的供应商，则其投标将被拒绝。\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '政府采购促进中小企业发展 政府采购支持监狱企业发展 政府采购促进残疾人就业 政府采购鼓励采购节能环保产品',
+ 'unit': '北京大学',
+ 'unit_address': '北京市海淀区颐和园路5号 ',
+ 'unit_contact_infor': '吴老师；62758587 ',
+ 'url': 'http://www.ccgp.gov.cn/cggg/zygg/gkzb/201903/t20190329_11831703.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 16:04:13 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01室',
+ 'agent_contact': '王军 010-68290508',
+ 'agent_name': '东方国际招标有限责任公司',
+ 'annou_time': '2019年04月01日  14:05',
+ 'bid_opening_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层1号会议室',
+ 'bid_opening_time': '2019年04月22日  13:30',
+ 'bidding_doc_address': '4、\t有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                        '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年4月1日至2019年4月9日 '
+                        '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                        '号：862081657710001招标文件售后不退。',
+ 'bidding_doc_price': '￥600',
+ 'bidding_doc_time': ' 2019年04月01日  14:03\xa0\xa0至\xa0\xa02019年04月09日  17:00',
+ 'budget_money': '￥100.000000万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/通用设备/仪器仪表/其他仪器仪表',
+ 'project_contact': '王军',
+ 'project_name': '北京大学化学与分子工程学院应用化学系辐射防护热室招标采购项目',
+ 'project_num': 'OITC-G190310331',
+ 'project_phone': '010-68290508',
+ 'regions': '北京市',
+ 'soft_hard': '',
+ 'text_path': '20190401_11838879.txt',
+ 'txt_content': '东方国际招标有限责任公司受北京大学委托，根据《中华人民共和国政府采购法》等有关规定，现对北京大学化学与分子工程学院应用化学系辐射防护热室招标采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京大学化学与分子工程学院应用化学系辐射防护热室招标采购项目\n'
+                '项目编号：OITC-G190310331\n'
+                '项目联系方式：\n'
+                '项目联系人：王军\n'
+                '项目联系电话：010-68290508\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京大学\n'
+                '地址：北京市海淀区颐和园路5号\n'
+                '联系方式：吴老师；62758587\n'
+                '代理机构联系方式：\n'
+                '代理机构：东方国际招标有限责任公司\n'
+                '代理机构联系人：王军 010-68290508\n'
+                '代理机构地址： 北京市海淀区西三环北路甲2号院科技园6号楼13层01室\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '包号\n'
+                '货物名称\n'
+                '数量\n'
+                '简要技术规格\n'
+                '是否允许采购进口产品\n'
+                '采购预算\n'
+                '1\n'
+                '辐射防护热室\n'
+                '1套\n'
+                '本设备配套14.6MeV质子加速器项目（丙级非密封源工作场所），用于处理加速器产生的放射性核素（药物）及被活化的加速器配件等，包括合成热室（双腔）一台、分装热室一台、防辐射通风厨一台。\n'
+                '否\n'
+                '100\n'
+                '万元\n'
+                '二、投标人的资格要求：\n'
+                '1、\t投标人须符合《中华人民共和国政府采购法》第二十二条的规定；(具体为供应商参加政府采购活动应当具备下列条件：    '
+                '（一）具有独立承担民事责任的能力；    （二）具有良好的商业信誉和健全的财务会计制度；    '
+                '（三）具有履行合同所必需的设备和专业技术能力；    （四）有依法缴纳税收和社会保障资金的良好记录；    '
+                '（五）参加政府采购活动前三年内，在经营活动中没有重大违法记录；    （六）法律、行政法规规定的其他条件。)2、\t'
+                '投标人须在中华人民共和国境内合法注册、有法人资格并符合工商局或相关行业主管部门核准的经营范围或经营许可；3、\t'
+                '投标人按照招标公告要求购买了招标文件；4、\t投标人不得为招标人或招标代理机构的附属或相关机构；5、\t'
+                '投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商。6、\t'
+                '本项目不接受联合体投标。\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：100.0 万元（人民币）\n'
+                '时间：2019年04月01日 14:03\xa0至\xa02019年04月09日 17:00(双休日及法定节假日除外)\n'
+                '地点：4、\t有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年4月1日至2019年4月9日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '招标文件售价：￥600.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：4、\t有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年4月1日至2019年4月9日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '四、投标截止时间：2019年04月22日 13:30\n'
+                '五、开标时间：2019年04月22日 13:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区西三环北路甲2号院科技园6号楼13层1号会议室\n'
+                '七、其它补充事宜\n'
+                '1、所有投标文件都必须附有投标保证金，保证金金额为各包预算的1.5%。投标保证金须在投标截止时间前以电汇或银行保函的形式支付，未按规定提供投标保证金的投标文件将被拒绝。以电汇方式购买招标文件和递交投标保证金的，须在电汇凭据附言栏中写明招标编号、包号及用途（如因未标明招标编号导致投标保证金未能及时到账的，其投标无效）。\n'
+                '2、投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商的查询规定：\n'
+                'a）信用信息查询渠道：“信用中国”网站（www.creditchina.gov.cn）、中国政府采购网（www.ccgp.gov.cn）等。\n'
+                'b）信用信息查询截止时点：同投标截止期，即查询投标人截止到投标截止期的信用信息记录。\n'
+                'c）信用信息查询记录和证据留存的具体方式：信用信息查询记录将以网站截图打印稿形式与其他采购文件一并保存。\n'
+                'd）信用信息的使用规则：如投标人为“信用中国”网站（www.creditchina.gov.cn）中列入失信被执行人或重大税收违法案件当事人名单的供应商，或为中国政府采购网（www.ccgp.gov.cn）政府采购严重违法失信行为记录名单中被财政部门禁止参加政府采购活动的供应商，则其投标将被拒绝。\n'
+                '八、采购项目需要落实的政府采购政策：',
+ 'unit': '北京大学',
+ 'unit_address': '北京市海淀区颐和园路5号 ',
+ 'unit_contact_infor': '吴老师；62758587 ',
+ 'url': 'http://www.ccgp.gov.cn/cggg/zygg/gkzb/201904/t20190401_11838879.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 16:05:34 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01室',
+ 'agent_contact': '王军 010-68290508',
+ 'agent_name': '东方国际招标有限责任公司',
+ 'annou_time': '2019年03月13日  16:28',
+ 'bid_opening_address': '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室',
+ 'bid_opening_time': '2019年04月04日  09:30',
+ 'bidding_doc_address': '招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                        '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年3月13日至2019年3月20日 '
+                        '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                        '号：862081657710001招标文件售后不退。',
+ 'bidding_doc_price': '￥600',
+ 'bidding_doc_time': ' 2019年03月13日  16:19\xa0\xa0至\xa0\xa02019年03月20日  17:00',
+ 'budget_money': '￥610.000000万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/专用设备/医疗设备/其他医疗设备',
+ 'project_contact': '王军',
+ 'project_name': '北京大学医学部模拟人招标采购项目',
+ 'project_num': 'OITC-G190310326',
+ 'project_phone': '010-68290508',
+ 'regions': '北京市',
+ 'soft_hard': '',
+ 'text_path': '20190313_11749460.txt',
+ 'txt_content': '东方国际招标有限责任公司受北京大学医学部委托，根据《中华人民共和国政府采购法》等有关规定，现对北京大学医学部模拟人招标采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京大学医学部模拟人招标采购项目\n'
+                '项目编号：OITC-G190310326\n'
+                '项目联系方式：\n'
+                '项目联系人：王军\n'
+                '项目联系电话：010-68290508\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京大学医学部\n'
+                '地址：海淀区学院路38号\n'
+                '联系方式：霍老师；82801359\n'
+                '代理机构联系方式：\n'
+                '代理机构：东方国际招标有限责任公司\n'
+                '代理机构联系人：王军 010-68290508\n'
+                '代理机构地址： 北京市海淀区西三环北路甲2号院科技园6号楼13层01室\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '包号\n'
+                '货物名称\n'
+                '数量\n'
+                '简要用途\n'
+                '是否允许采购进口产品\n'
+                '采购\n'
+                '预算\n'
+                '1\n'
+                '高端智能成人仿真模拟人\n'
+                '1套\n'
+                '选购一台高端智能成人仿真模拟人，可用于临床医师，本科生及研究生的临床教学，可显示真实病人的各种生命体征，血压、血氧、呼吸，并且可以使用真实临床器械，血管介入操作、智能给药种类、给药剂量识别、全自动反应与手动模式可选、权威机构配套病例课程、全自动的体液系统、全面的生命体征参数、方便的全触摸屏操作、完全仿真的模拟监护仪、先进的评估报告系统等。\n'
+                '是\n'
+                '230\n'
+                '万元\n'
+                '2\n'
+                '高端智能妇产仿真人\n'
+                '1套\n'
+                '选购一台高端智能妇产仿真人，可用于临床医师，本科生及研究生的临床教学，导师计算机控制可显示真实病人的各种生命体征，血压、血氧、呼吸，可进行各种体位的分娩与反复训练，权威机构配套病例课程，并可进行孕早期及晚期的超声技能。\n'
+                '是\n'
+                '170\n'
+                '万元\n'
+                '3\n'
+                '新生儿、婴儿及儿童模拟人\n'
+                '品目1\n'
+                '高端智能无线新生儿模拟病人\n'
+                '1套\n'
+                '选购一台高端智能无线新生儿模拟病人，可用于临床医师，本科生及研究生的临床教学，可显示真实病人的各种生命体征，血压、血氧、呼吸，模拟人与导师机、学生机之间无线连接，可进行新生儿气道管理各方面的培训。要求可练习新生儿评估和管理，使用批判性思维技能，建立团队合作和沟通的机会。\n'
+                '是\n'
+                '45万元\n'
+                '品目2\n'
+                '高端综合婴儿仿真模拟人\n'
+                '1套\n'
+                '选购一套适合儿科模拟训练用的高端综合婴儿仿真模拟人。主要用于模拟 9 '
+                '个月大的儿科病人，提供高度逼真的模型，能够满足侧重初始评估和治疗的特定学习目标。\n'
+                '学习如何有效识别呼吸急救、休克以及心脏骤停并且对其做出反应，能够提高医疗护理提供者在紧急情况下更加从容应对的能力，具备精准的解剖学构造和功能，可运行经过了美国心脏协会儿科高级生命支持病例(PALS)，能够用来模拟多种情况，从会说话的健康婴儿到没有反应和生命体征的危重病人。\n'
+                '是\n'
+                '80万元\n'
+                '品目3\n'
+                '高端智能儿童模拟病人\n'
+                '1套\n'
+                '选购一套适合儿科模拟训练用的高端智能儿童模拟病人。主要用于模拟模拟一系列儿童身体状态，包括从一个正常健康的儿童到一个没有反应，没有生命体征的危重病人。\n'
+                '学习如何有效识别呼吸急救、休克以及心脏骤停并且对其做出反应，能够提高医疗护理提供者在紧急情况下更加从容应对的能力，具备精准的解剖学构造和功能，可运行经过了美国护理大联盟NLN认证的病例，能够用来模拟多种情况。\n'
+                '是\n'
+                '85万元\n'
+                '二、投标人的资格要求：\n'
+                '1、\t投标人须符合《中华人民共和国政府采购法》第二十二条的规定；(具体为供应商参加政府采购活动应当具备下列条件：    '
+                '（一）具有独立承担民事责任的能力；    （二）具有良好的商业信誉和健全的财务会计制度；    '
+                '（三）具有履行合同所必需的设备和专业技术能力；    （四）有依法缴纳税收和社会保障资金的良好记录；    '
+                '（五）参加政府采购活动前三年内，在经营活动中没有重大违法记录；    （六）法律、行政法规规定的其他条件。)2、\t'
+                '投标人须在中华人民共和国境内合法注册、有法人资格并符合工商局或相关行业主管部门核准的经营范围或经营许可(境外制造商必须委托国内相关机构或代理商投标)；3、\t'
+                '投标人如为代理商，还须提供所投设备原制造商针对本项目投标的授权书(适用于进口产品)；4、\t'
+                '投标人按照招标公告要求购买了招标文件；5、\t投标人不得为招标人或招标代理机构的附属或相关机构；6、\t'
+                '投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商。7、\t'
+                '本项目不接受联合体投标。\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：610.0 万元（人民币）\n'
+                '时间：2019年03月13日 16:19\xa0至\xa02019年03月20日 17:00(双休日及法定节假日除外)\n'
+                '地点：招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年3月13日至2019年3月20日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '招标文件售价：￥600.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：招标文件采用网上电子发售购买方式，招标文件获取方式：登录东方在线www.o-science.com注册并购买。有兴趣的投标人可登陆“东方在线”（http://www.o-science.com '
+                '招标在线频道），完成投标人注册手续（免费），然后登录系统浏览该项目下产品的“技术指标”，已注册的投标人无需重新注册。招标文件售价：每包人民币600元。如决定购买招标文件，请完成标书款缴费及标书下载手续。时间：2019年3月13日至2019年3月20日 '
+                '17:00(双休日及法定节假日除外；标书售卖期限为5个工作日)投标人可以电汇的形式支付标书款（应以公司名义汇款至下述指定账号）：开户名称：东方国际招标有限责任公司开户行：招商银行北京西三环支行账  '
+                '号：862081657710001招标文件售后不退。\n'
+                '四、投标截止时间：2019年04月04日 09:30\n'
+                '五、开标时间：2019年04月04日 09:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区西三环北路甲2号院科技园6号楼13层01号会议室\n'
+                '七、其它补充事宜\n'
+                '1、所有投标文件都必须附有投标保证金，保证金金额为各包预算的1.5%。投标保证金须在投标截止时间前以电汇或银行保函的形式支付，未按规定提供投标保证金的投标文件将被拒绝。以电汇方式购买招标文件和递交投标保证金的，须在电汇凭据附言栏中写明招标编号、包号及用途（如因未标明招标编号导致投标保证金未能及时到账的，其投标无效）。\n'
+                '2、投标人不得为列入失信被执行人、重大税收违法案件当事人名单、政府采购严重违法失信行为记录名单的供应商的查询规定：\n'
+                'a）信用信息查询渠道：“信用中国”网站（www.creditchina.gov.cn）、中国政府采购网（www.ccgp.gov.cn）等。\n'
+                'b）信用信息查询截止时点：同投标截止期，即查询投标人截止到投标截止期的信用信息记录。\n'
+                'c）信用信息查询记录和证据留存的具体方式：信用信息查询记录将以网站截图打印稿形式与其他采购文件一并保存。\n'
+                'd）信用信息的使用规则：如投标人为“信用中国”网站（www.creditchina.gov.cn）中列入失信被执行人或重大税收违法案件当事人名单的供应商，或为中国政府采购网（www.ccgp.gov.cn）政府采购严重违法失信行为记录名单中被财政部门禁止参加政府采购活动的供应商，则其投标将被拒绝。\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '1；政府采购促进中小企业发展\n'
+                '2；政府采购支持监狱企业发展\n'
+                '3；政府采购促进残疾人就业\n'
+                '4；政府采购鼓励采购节能环保产品',
+ 'unit': '北京大学医学部',
+ 'unit_address': '海淀区学院路38号',
+ 'unit_contact_infor': '霍老师；82801359 ',
+ 'url': 'http://www.ccgp.gov.cn/cggg/zygg/gkzb/201903/t20190313_11749460.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 16:37:27 [scrapy.pipelines.files] WARNING: File (empty-content): Empty file from <GET http://www.ccgp.gov.cn/oss/download?uuid=E5F5B7706A37527ABCFE67D3D6FCC7> referred in <None>: no-content
+2020-03-18 16:52:23 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）',
+ 'agent_contact': '郑亚维  孙芳懿 010-52808100  010-52808030 ',
+ 'agent_name': '北京市海淀区政府采购中心',
+ 'annou_time': '2019年10月18日  16:01',
+ 'bid_opening_address': '北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）6层西侧第五开标室A',
+ 'bid_opening_time': '2019年11月07日  09:30',
+ 'bidding_doc_address': '（1）办理北京市法人一证通(CA数字证书)请登录北京市海淀区公共资源交易信息网 '
+                        '(http://www.bjhd.gov.cn/ggzyjy/)，查阅【服务指南】——【CA办理】栏目，按照程序要求办理。（2）新用户注册 '
+                        '取得CA数字证书后，请登录网站主页(http://www.bjhd.gov.cn/ggzyjy/），选择【网上办事】——【投标人】栏目，应用CA数字证书进行新用户注册。（3）标书下载及投标报名完成注册后，通过使用CA数字证书即可登录系统免费下载招标文件，下载预览招标文件后，请在规定时间内登录系统进行投标报名。如未按要求进行投标报名，视同放弃本项目投标。备注：如已办理北京市法人一证通(CA数字证书)，且完成新用户注册，投标报名程序请忽略上述（1）、（2）项内容。',
+ 'bidding_doc_price': '￥0',
+ 'bidding_doc_time': ' 2019年10月18日  15:28\xa0\xa0至\xa0\xa02019年10月25日  17:00',
+ 'budget_money': '￥282.000000万元（人民币）',
+ 'file_save_path': '',
+ 'file_urls': '',
+ 'files': [],
+ 'items': '货物/通用设备/计算机设备及软件/终端设备/触摸式终端设备',
+ 'project_contact': '郑亚维、孙芳懿',
+ 'project_name': '北京师范大学第三附属中学申报“北京师范大学第三附属中学基础信息化升级改造项目(多媒体设备采购)”政府采购项目',
+ 'project_num': 'HCZX2019-009',
+ 'project_phone': '010-52808100、010-52808030 ',
+ 'regions': '海淀区',
+ 'soft_hard': '',
+ 'text_path': '20191018_13135374.txt',
+ 'txt_content': '北京市海淀区政府采购中心受北京师范大学第三附属中学委托，根据《中华人民共和国政府采购法》等有关规定，现对北京师范大学第三附属中学申报“北京师范大学第三附属中学基础信息化升级改造项目(多媒体设备采购)”政府采购项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京师范大学第三附属中学申报“北京师范大学第三附属中学基础信息化升级改造项目(多媒体设备采购)”政府采购项目\n'
+                '项目编号：HCZX2019-009\n'
+                '项目联系方式：\n'
+                '项目联系人：郑亚维、孙芳懿\n'
+                '项目联系电话：010-52808100、010-52808030\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京师范大学第三附属中学\n'
+                '地址：北京市海淀区北三环中路甲36号\n'
+                '联系方式：程海忠 010-62011607\n'
+                '代理机构联系方式：\n'
+                '代理机构：北京市海淀区政府采购中心\n'
+                '代理机构联系人：郑亚维  孙芳懿 010-52808100  010-52808030\n'
+                '代理机构地址： 北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '项目名称\n'
+                '数量\n'
+                '用途\n'
+                '简要需求\n'
+                '北京师范大学第三附属中学申报“北京师范大学第三附属中学基础信息化升级改造项目(多媒体设备采购)”政府采购项目\n'
+                '1 批\n'
+                '教学\n'
+                '多媒体设备\n'
+                '（用途及技术需求详见招标文件第二册第八章）\n'
+                '二、投标人的资格要求：\n'
+                '符合《中华人民共和国政府采购法》第22条要求\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：282.0 万元（人民币）\n'
+                '时间：2019年10月18日 15:28\xa0至\xa02019年10月25日 17:00(双休日及法定节假日除外)\n'
+                '地点：（1）办理北京市法人一证通(CA数字证书)请登录北京市海淀区公共资源交易信息网 '
+                '(http://www.bjhd.gov.cn/ggzyjy/)，查阅【服务指南】——【CA办理】栏目，按照程序要求办理。（2）新用户注册 '
+                '取得CA数字证书后，请登录网站主页(http://www.bjhd.gov.cn/ggzyjy/），选择【网上办事】——【投标人】栏目，应用CA数字证书进行新用户注册。（3）标书下载及投标报名完成注册后，通过使用CA数字证书即可登录系统免费下载招标文件，下载预览招标文件后，请在规定时间内登录系统进行投标报名。如未按要求进行投标报名，视同放弃本项目投标。备注：如已办理北京市法人一证通(CA数字证书)，且完成新用户注册，投标报名程序请忽略上述（1）、（2）项内容。\n'
+                '招标文件售价：￥0.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：（1）办理北京市法人一证通(CA数字证书)请登录北京市海淀区公共资源交易信息网 '
+                '(http://www.bjhd.gov.cn/ggzyjy/)，查阅【服务指南】——【CA办理】栏目，按照程序要求办理。（2）新用户注册 '
+                '取得CA数字证书后，请登录网站主页(http://www.bjhd.gov.cn/ggzyjy/），选择【网上办事】——【投标人】栏目，应用CA数字证书进行新用户注册。（3）标书下载及投标报名完成注册后，通过使用CA数字证书即可登录系统免费下载招标文件，下载预览招标文件后，请在规定时间内登录系统进行投标报名。如未按要求进行投标报名，视同放弃本项目投标。备注：如已办理北京市法人一证通(CA数字证书)，且完成新用户注册，投标报名程序请忽略上述（1）、（2）项内容。\n'
+                '四、投标截止时间：2019年11月07日 09:30\n'
+                '五、开标时间：2019年11月07日 09:30\n'
+                '六、开标地点：\n'
+                '北京市海淀区东北旺南路29号院4号楼（北京市海淀区政务服务管理局）6层西侧第五开标室A\n'
+                '七、其它补充事宜\n'
+                '采购编号：海采（2019）1268号\n'
+                '项目预算金额：人民币2820000元，超预算报价为无效标。\n'
+                '招标公告公示期限：本公告发布之日起5个工作日。\n'
+                '投标文件请于开标当日投标截止时间之前送至开标地点，逾期收到或不符合规定的投标文件恕不接受。\n'
+                '是否接受联合体投标：否是否有询标：否\xa0\xa0\xa0 是否现场踏勘：否\n'
+                '传\xa0 真：010-52808094\n'
+                '邮\xa0 编：100193\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '详见招标文件',
+ 'unit': '北京师范大学第三附属中学',
+ 'unit_address': '北京市海淀区北三环中路甲36号',
+ 'unit_contact_infor': '程海忠 010-62011607',
+ 'url': 'http://www.ccgp.gov.cn/cggg/dfgg/gkzb/201910/t20191018_13135374.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")
+2020-03-18 18:41:49 [scrapy.core.scraper] ERROR: Error processing {'agent_address': '北京复兴门外大街A2号中化大厦',
+ 'agent_contact': '叶斌、曹颖010-59369355、59369373',
+ 'agent_name': '中化商务有限公司',
+ 'annou_time': '2019年05月13日  16:47',
+ 'bid_opening_address': '北京复兴门外大街A2号中化大厦19层第8会议室',
+ 'bid_opening_time': '2019年06月03日  09:30',
+ 'bidding_doc_address': '登录中化招标电子招投标平台（e.sinochemitc.com）通过网上支付方式购买招标文件。潜在投标人需先进行网上注册（免费），并通过邮件、电话等方式通知业务联系人将注册成功的投标人邀请至本项目中，即可购买文件。平台目前开放的支付方式包括：银联、微信，可自由选择（注意：本公司不接受任何电汇支付）。支付成功后，可下载招标文件及增值税电子普通发票。招标文件费支付和电子发票获取的操作手册详见：“进入平台—综合办公—常用文件—中化招投标平台－投标人操作手册”。供应商注册/标书发售/平台技术支持等相关事宜请咨询中化招标电子招投标平台技术支持，联系电话：010-86391277。',
+ 'bidding_doc_price': '￥500',
+ 'bidding_doc_time': ' 2019年05月13日  16:46\xa0\xa0至\xa0\xa02019年05月20日  16:30',
+ 'budget_money': '￥0.000000万元（人民币）',
+ 'file_save_path': '3D14A5B29637FC6FCC69E6B1D57A8B/N130-招标公告-食堂餐饮服务采购.docx',
+ 'file_urls': 'http://www.ccgp.gov.cn/oss/download?uuid=3D14A5B29637FC6FCC69E6B1D57A8B',
+ 'files': [{'checksum': '66a4e2a5dea3c689f7ad31e23034064b',
+            'path': '/3D14A5B29637FC6FCC69E6B1D57A8B/N130-招标公告-食堂餐饮服务采购.docx',
+            'url': 'http://www.ccgp.gov.cn/oss/download?uuid=3D14A5B29637FC6FCC69E6B1D57A8B'}],
+ 'items': '服务/其他服务',
+ 'project_contact': '叶斌',
+ 'project_name': '北京大学人民医院食堂餐饮服务项目',
+ 'project_num': '0747-1961SCCZN130',
+ 'project_phone': '010-59369355',
+ 'regions': '北京市',
+ 'soft_hard': '',
+ 'text_path': '20190513_12064736.txt',
+ 'txt_content': '中化商务有限公司受北京大学人民医院委托，根据《中华人民共和国政府采购法》等有关规定，现对北京大学人民医院食堂餐饮服务项目进行公开招标，欢迎合格的供应商前来投标。\n'
+                '项目名称：北京大学人民医院食堂餐饮服务项目\n'
+                '项目编号：0747-1961SCCZN130\n'
+                '项目联系方式：\n'
+                '项目联系人：叶斌\n'
+                '项目联系电话：010-59369355\n'
+                '采购单位联系方式：\n'
+                '采购单位：北京大学人民医院\n'
+                '地址：北京市西城区西直门南大街11号\n'
+                '联系方式：徐老师 88324070\n'
+                '代理机构联系方式：\n'
+                '代理机构：中化商务有限公司\n'
+                '代理机构联系人：叶斌、曹颖010-59369355、59369373\n'
+                '代理机构地址： 北京复兴门外大街A2号中化大厦\n'
+                '一、采购项目的名称、数量、简要规格描述或项目基本概况介绍：\n'
+                '详见招标公告\n'
+                '二、投标人的资格要求：\n'
+                '详见招标公告\n'
+                '三、招标文件的发售时间及地点等：\n'
+                '预算金额：0.0 万元（人民币）\n'
+                '时间：2019年05月13日 16:46\xa0至\xa02019年05月20日 16:30(双休日及法定节假日除外)\n'
+                '地点：登录中化招标电子招投标平台（e.sinochemitc.com）通过网上支付方式购买招标文件。潜在投标人需先进行网上注册（免费），并通过邮件、电话等方式通知业务联系人将注册成功的投标人邀请至本项目中，即可购买文件。平台目前开放的支付方式包括：银联、微信，可自由选择（注意：本公司不接受任何电汇支付）。支付成功后，可下载招标文件及增值税电子普通发票。招标文件费支付和电子发票获取的操作手册详见：“进入平台—综合办公—常用文件—中化招投标平台－投标人操作手册”。供应商注册/标书发售/平台技术支持等相关事宜请咨询中化招标电子招投标平台技术支持，联系电话：010-86391277。\n'
+                '招标文件售价：￥500.0 元，本公告包含的招标文件售价总和\n'
+                '招标文件获取方式：登录中化招标电子招投标平台（e.sinochemitc.com）通过网上支付方式购买招标文件。潜在投标人需先进行网上注册（免费），并通过邮件、电话等方式通知业务联系人将注册成功的投标人邀请至本项目中，即可购买文件。平台目前开放的支付方式包括：银联、微信，可自由选择（注意：本公司不接受任何电汇支付）。支付成功后，可下载招标文件及增值税电子普通发票。招标文件费支付和电子发票获取的操作手册详见：“进入平台—综合办公—常用文件—中化招投标平台－投标人操作手册”。供应商注册/标书发售/平台技术支持等相关事宜请咨询中化招标电子招投标平台技术支持，联系电话：010-86391277。\n'
+                '四、投标截止时间：2019年06月03日 09:30\n'
+                '五、开标时间：2019年06月03日 09:30\n'
+                '六、开标地点：\n'
+                '北京复兴门外大街A2号中化大厦19层第8会议室\n'
+                '七、其它补充事宜\n'
+                '详见招标公告\n'
+                '八、采购项目需要落实的政府采购政策：\n'
+                '详见招标公告',
+ 'unit': '北京大学人民医院',
+ 'unit_address': '北京市西城区西直门南大街11号',
+ 'unit_contact_infor': '徐老师 88324070',
+ 'url': 'http://www.ccgp.gov.cn/cggg/dfgg/gkzb/201905/t20190513_12064736.htm'}
+Traceback (most recent call last):
+  File "D:\Code\Virtual\CCGP\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 190, in process_item
+    item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'],
+  File "D:\Code\project-python\SpiderCCGP\SpiderCCGP\SpiderCCGP\pipelines.py", line 177, in _do_GKZB_insert
+    item['text_path'], item['file_save_path']))
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 732, in _read_query_result
+    result.read()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Code\Virtual\CCGP\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1406, "Data too long for column 'bidding_doc_address' at row 1")

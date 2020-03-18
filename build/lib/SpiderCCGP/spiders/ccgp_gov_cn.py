@@ -53,14 +53,12 @@ class CcgpGovCnSpider(scrapy.Spider):
                 elif data['pinMu'] == 3:
                     kind = '服务类'
 
-                if data['bidType'] == 1:
-                    page_type = '公开招标'
+                if data['bidType'] == 8:
+                    page_type = '更正公告'
                 elif data['bidType'] == 7:
                     page_type = '中标公告'
-                elif data['bidType'] == 8:
-                    page_type = '更正公告'
-                elif data['bidType'] == 11:
-                    page_type = '成交公告'
+                elif data['bidType'] == 1:
+                    page_type = '公开招标'
                 elif data['bidType'] == 12:
                     page_type = '废标公告'
 
@@ -93,16 +91,14 @@ class CcgpGovCnSpider(scrapy.Spider):
             item['ptype'] = page_type
             item['kind'] = page_kind
             yield item
-            if page_type == '公开招标':
-                yield Request(post_url, callback=self.parse_detail_1)
-            elif page_type == '中标公告':
-                yield Request(post_url, callback=self.parse_detail_7)
-            elif page_type == '更正公告':
+            if page_type == '更正公告':
                 yield Request(post_url, callback=self.parse_detail_8)
-            elif page_type == '成交公告':
-                yield Request(post_url, callback=self.parse_detail_11)
             elif page_type == '废标公告':
                 yield Request(post_url, callback=self.parse_detail_12)
+            elif page_type == '中标公告':
+                yield Request(post_url, callback=self.parse_detail_7)
+            elif page_type == '公开招标':
+                yield Request(post_url, callback=self.parse_detail_1)
 
     def parse_detail_1(self, response):
         item = GKZBItem()
