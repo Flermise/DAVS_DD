@@ -1,7 +1,6 @@
-import urllib.parse
-import time
 import datetime
-import re
+import time
+import urllib.parse
 import urllib.request
 
 

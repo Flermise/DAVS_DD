@@ -83,13 +83,12 @@ from SpiderCCGP import settings
 # item['agent_name'], item['agent_address'], item['agent_contact'], item['text_path'], item['file_save_path']))
 
 
+# import tempfile
+#
+# a = tempfile.gettempdir()
+# print(a)
+#
 
-
-
-
-
-
-
-
-
-
+s =''
+if s is not None:
+    print("s")

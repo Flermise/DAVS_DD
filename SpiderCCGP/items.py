@@ -83,7 +83,7 @@ class ZBGGItem(scrapy.Item):
     tender_annou_time = scrapy.Field()  # 招标公告时间
     winning_time = scrapy.Field()  # 中标公告时间
     experts = scrapy.Field()  # 专家名单
-    total_money = scrapy.Field  # 总中标金额
+    total_money = scrapy.Field()  # 总中标金额
     project_contact = scrapy.Field()  # 项目联系人
     project_phone = scrapy.Field()  # 项目联系电话
     unit_address = scrapy.Field()  # 采购单位地址
