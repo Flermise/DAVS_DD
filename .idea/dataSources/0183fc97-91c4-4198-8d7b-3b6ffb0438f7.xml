@@ -921,21 +921,27 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="232" parent="2" name="cj_2019"/>
-    <table id="233" parent="2" name="college"/>
-    <table id="234" parent="2" name="fblb_2019"/>
-    <table id="235" parent="2" name="gkzb_2019"/>
-    <table id="236" parent="2" name="gz_2019"/>
-    <table id="237" parent="2" name="page_url"/>
-    <table id="238" parent="2" name="zb_2019"/>
-    <column id="239" parent="232" name="id">
+    <table id="232" parent="2" name="cj_2018"/>
+    <table id="233" parent="2" name="cj_2019"/>
+    <table id="234" parent="2" name="college"/>
+    <table id="235" parent="2" name="fblb_2018"/>
+    <table id="236" parent="2" name="fblb_2019"/>
+    <table id="237" parent="2" name="gkzb_2018"/>
+    <table id="238" parent="2" name="gkzb_2019"/>
+    <table id="239" parent="2" name="gz_2018"/>
+    <table id="240" parent="2" name="gz_2019"/>
+    <table id="241" parent="2" name="page_url_2018"/>
+    <table id="242" parent="2" name="page_url_2019"/>
+    <table id="243" parent="2" name="zb_2018"/>
+    <table id="244" parent="2" name="zb_2019"/>
+    <column id="245" parent="232" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="232" name="project_num">
+    <column id="246" parent="232" name="project_num">
       <Position>2</Position>
       <Comment>项目编号</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -943,28 +949,28 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="232" name="project_name">
+    <column id="247" parent="232" name="project_name">
       <Position>3</Position>
       <Comment>项目名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="232" name="items">
+    <column id="248" parent="232" name="items">
       <Position>4</Position>
       <Comment>品目</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="232" name="url">
+    <column id="249" parent="232" name="url">
       <Position>5</Position>
       <Comment>网址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="244" parent="232" name="soft_hard">
+    <column id="250" parent="232" name="soft_hard">
       <Position>6</Position>
       <Comment>软硬件</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -972,160 +978,330 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="232" name="unit">
+    <column id="251" parent="232" name="unit">
       <Position>7</Position>
       <Comment>采购单位</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="232" name="regions">
+    <column id="252" parent="232" name="regions">
       <Position>8</Position>
       <Comment>行政区域</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="232" name="annou_time">
+    <column id="253" parent="232" name="annou_time">
       <Position>9</Position>
       <Comment>公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="232" name="tender_annou_time">
+    <column id="254" parent="232" name="tender_annou_time">
       <Position>10</Position>
       <Comment>招标公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="249" parent="232" name="done_time">
+    <column id="255" parent="232" name="done_time">
       <Position>11</Position>
       <Comment>成交日期</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="232" name="team_member">
+    <column id="256" parent="232" name="team_member">
       <Position>12</Position>
       <Comment>小组名单</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="232" name="total_money">
+    <column id="257" parent="232" name="total_money">
       <Position>13</Position>
       <Comment>总成交金额</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="252" parent="232" name="project_contact">
+    <column id="258" parent="232" name="project_contact">
       <Position>14</Position>
       <Comment>项目联系人</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="253" parent="232" name="project_phone">
+    <column id="259" parent="232" name="project_phone">
       <Position>15</Position>
       <Comment>项目联系电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="254" parent="232" name="unit_address">
+    <column id="260" parent="232" name="unit_address">
       <Position>16</Position>
       <Comment>采购单位地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="255" parent="232" name="unit_contact_infor">
+    <column id="261" parent="232" name="unit_contact_infor">
       <Position>17</Position>
       <Comment>采购单位联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="256" parent="232" name="agent_name">
+    <column id="262" parent="232" name="agent_name">
       <Position>18</Position>
       <Comment>代理机构名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="257" parent="232" name="agent_address">
+    <column id="263" parent="232" name="agent_address">
       <Position>19</Position>
       <Comment>代理机构地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="232" name="agent_contact">
+    <column id="264" parent="232" name="agent_contact">
       <Position>20</Position>
       <Comment>代理机构联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="232" name="text_path">
+    <column id="265" parent="232" name="text_path">
       <Position>21</Position>
       <Comment>文本路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="232" name="file_save_path">
+    <column id="266" parent="232" name="file_save_path">
       <Position>22</Position>
       <Comment>更正公告文件路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="261" parent="232" name="url_unique">
+    <index id="267" parent="232" name="url_unique">
       <Comment>每个页面仅仅读取一次</Comment>
       <ColNames>url</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="262" parent="232" name="PRIMARY">
+    <key id="268" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="263" parent="232" name="url_unique">
+    <key id="269" parent="232" name="url_unique">
       <ColNames>url</ColNames>
       <UnderlyingIndexName>url_unique</UnderlyingIndexName>
     </key>
-    <column id="264" parent="233" name="id">
+    <column id="270" parent="233" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="265" parent="233" name="name">
+    <column id="271" parent="233" name="project_num">
+      <Position>2</Position>
+      <Comment>项目编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="272" parent="233" name="project_name">
+      <Position>3</Position>
+      <Comment>项目名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="273" parent="233" name="items">
+      <Position>4</Position>
+      <Comment>品目</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="274" parent="233" name="url">
+      <Position>5</Position>
+      <Comment>网址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="275" parent="233" name="soft_hard">
+      <Position>6</Position>
+      <Comment>软硬件</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="276" parent="233" name="unit">
+      <Position>7</Position>
+      <Comment>采购单位</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="277" parent="233" name="regions">
+      <Position>8</Position>
+      <Comment>行政区域</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="278" parent="233" name="annou_time">
+      <Position>9</Position>
+      <Comment>公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="279" parent="233" name="tender_annou_time">
+      <Position>10</Position>
+      <Comment>招标公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="233" name="done_time">
+      <Position>11</Position>
+      <Comment>成交日期</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="233" name="team_member">
+      <Position>12</Position>
+      <Comment>小组名单</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="233" name="total_money">
+      <Position>13</Position>
+      <Comment>总成交金额</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="233" name="project_contact">
+      <Position>14</Position>
+      <Comment>项目联系人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="233" name="project_phone">
+      <Position>15</Position>
+      <Comment>项目联系电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="233" name="unit_address">
+      <Position>16</Position>
+      <Comment>采购单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="233" name="unit_contact_infor">
+      <Position>17</Position>
+      <Comment>采购单位联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="233" name="agent_name">
+      <Position>18</Position>
+      <Comment>代理机构名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="233" name="agent_address">
+      <Position>19</Position>
+      <Comment>代理机构地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="233" name="agent_contact">
+      <Position>20</Position>
+      <Comment>代理机构联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="233" name="text_path">
+      <Position>21</Position>
+      <Comment>文本路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="233" name="file_save_path">
+      <Position>22</Position>
+      <Comment>更正公告文件路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="292" parent="233" name="url_unique">
+      <Comment>每个页面仅仅读取一次</Comment>
+      <ColNames>url</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="293" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="294" parent="233" name="url_unique">
+      <ColNames>url</ColNames>
+      <UnderlyingIndexName>url_unique</UnderlyingIndexName>
+    </key>
+    <column id="295" parent="234" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="234" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="266" parent="233" name="name">
+    <index id="297" parent="234" name="name">
       <ColNames>name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="267" parent="233" name="PRIMARY">
+    <key id="298" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="268" parent="233" name="name">
+    <key id="299" parent="234" name="name">
       <ColNames>name</ColNames>
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
-    <column id="269" parent="234" name="id">
+    <column id="300" parent="235" name="id">
       <Position>1</Position>
       <Comment>ID</Comment>
       <DataType>int(11)|0s</DataType>
@@ -1133,7 +1309,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="270" parent="234" name="project_num">
+    <column id="301" parent="235" name="project_num">
       <Position>2</Position>
       <Comment>项目编号</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1141,28 +1317,28 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="234" name="project_name">
+    <column id="302" parent="235" name="project_name">
       <Position>3</Position>
       <Comment>项目名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="234" name="items">
+    <column id="303" parent="235" name="items">
       <Position>4</Position>
       <Comment>品目</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="273" parent="234" name="url">
+    <column id="304" parent="235" name="url">
       <Position>5</Position>
       <Comment>网址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="234" name="soft_hard">
+    <column id="305" parent="235" name="soft_hard">
       <Position>6</Position>
       <Comment>软硬件</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1170,105 +1346,248 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="234" name="unit">
+    <column id="306" parent="235" name="unit">
       <Position>7</Position>
       <Comment>采购单位</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="234" name="regions">
+    <column id="307" parent="235" name="regions">
       <Position>8</Position>
       <Comment>行政区域</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="234" name="annou_time">
+    <column id="308" parent="235" name="annou_time">
       <Position>9</Position>
       <Comment>公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="234" name="project_contact">
+    <column id="309" parent="235" name="project_contact">
       <Position>10</Position>
       <Comment>项目联系人</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="279" parent="234" name="project_phone">
+    <column id="310" parent="235" name="project_phone">
       <Position>11</Position>
       <Comment>项目联系电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="234" name="unit_address">
+    <column id="311" parent="235" name="unit_address">
       <Position>12</Position>
       <Comment>采购单位地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="234" name="unit_contact_infor">
+    <column id="312" parent="235" name="unit_contact_infor">
       <Position>13</Position>
       <Comment>采购单位联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="234" name="agent_name">
+    <column id="313" parent="235" name="agent_name">
       <Position>14</Position>
       <Comment>代理机构名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="234" name="agent_address">
+    <column id="314" parent="235" name="agent_address">
       <Position>15</Position>
       <Comment>代理机构地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="234" name="agent_contact">
+    <column id="315" parent="235" name="agent_contact">
       <Position>16</Position>
       <Comment>代理机构联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="234" name="text_path">
+    <column id="316" parent="235" name="text_path">
       <Position>17</Position>
       <Comment>文本路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="234" name="file_save_path">
+    <column id="317" parent="235" name="file_save_path">
       <Position>18</Position>
       <Comment>废标流标公告文件路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="287" parent="234" name="url_unique">
+    <index id="318" parent="235" name="url_unique">
       <Comment>每个页面仅仅读取一次</Comment>
       <ColNames>url</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="288" parent="234" name="PRIMARY">
+    <key id="319" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="289" parent="234" name="url_unique">
+    <key id="320" parent="235" name="url_unique">
       <ColNames>url</ColNames>
       <UnderlyingIndexName>url_unique</UnderlyingIndexName>
     </key>
-    <column id="290" parent="235" name="id">
+    <column id="321" parent="236" name="id">
+      <Position>1</Position>
+      <Comment>ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="236" name="project_num">
+      <Position>2</Position>
+      <Comment>项目编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="236" name="project_name">
+      <Position>3</Position>
+      <Comment>项目名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="236" name="items">
+      <Position>4</Position>
+      <Comment>品目</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="236" name="url">
+      <Position>5</Position>
+      <Comment>网址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="236" name="soft_hard">
+      <Position>6</Position>
+      <Comment>软硬件</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="236" name="unit">
+      <Position>7</Position>
+      <Comment>采购单位</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="236" name="regions">
+      <Position>8</Position>
+      <Comment>行政区域</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="329" parent="236" name="annou_time">
+      <Position>9</Position>
+      <Comment>公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="236" name="project_contact">
+      <Position>10</Position>
+      <Comment>项目联系人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="236" name="project_phone">
+      <Position>11</Position>
+      <Comment>项目联系电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="236" name="unit_address">
+      <Position>12</Position>
+      <Comment>采购单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="236" name="unit_contact_infor">
+      <Position>13</Position>
+      <Comment>采购单位联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="236" name="agent_name">
+      <Position>14</Position>
+      <Comment>代理机构名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="236" name="agent_address">
+      <Position>15</Position>
+      <Comment>代理机构地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="236" name="agent_contact">
+      <Position>16</Position>
+      <Comment>代理机构联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="236" name="text_path">
+      <Position>17</Position>
+      <Comment>文本路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="338" parent="236" name="file_save_path">
+      <Position>18</Position>
+      <Comment>废标流标公告文件路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="339" parent="236" name="url_unique">
+      <Comment>每个页面仅仅读取一次</Comment>
+      <ColNames>url</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="340" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="341" parent="236" name="url_unique">
+      <ColNames>url</ColNames>
+      <UnderlyingIndexName>url_unique</UnderlyingIndexName>
+    </key>
+    <column id="342" parent="237" name="id">
       <Position>1</Position>
       <Comment>id</Comment>
       <DataType>int(11)|0s</DataType>
@@ -1276,7 +1595,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="235" name="project_num">
+    <column id="343" parent="237" name="project_num">
       <Position>2</Position>
       <Comment>项目编号</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1284,28 +1603,28 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="235" name="project_name">
+    <column id="344" parent="237" name="project_name">
       <Position>3</Position>
       <Comment>项目名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="235" name="items">
+    <column id="345" parent="237" name="items">
       <Position>4</Position>
       <Comment>品目</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="235" name="url">
+    <column id="346" parent="237" name="url">
       <Position>5</Position>
       <Comment>网址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="235" name="soft_hard">
+    <column id="347" parent="237" name="soft_hard">
       <Position>6</Position>
       <Comment>软硬件</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1313,154 +1632,155 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="235" name="unit">
+    <column id="348" parent="237" name="unit">
       <Position>7</Position>
       <Comment>采购单位</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="235" name="regions">
+    <column id="349" parent="237" name="regions">
       <Position>8</Position>
       <Comment>行政区域</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="235" name="annou_time">
+    <column id="350" parent="237" name="annou_time">
       <Position>9</Position>
       <Comment>公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="235" name="bidding_doc_time">
+    <column id="351" parent="237" name="bidding_doc_time">
       <Position>10</Position>
       <Comment>招标文件时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="235" name="bidding_doc_price">
+    <column id="352" parent="237" name="bidding_doc_price">
       <Position>11</Position>
       <Comment>招标文件售价</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="235" name="bidding_doc_address">
+    <column id="353" parent="237" name="bidding_doc_address">
       <Position>12</Position>
       <Comment>招标文件地址</Comment>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="235" name="bid_opening_time">
+    <column id="354" parent="237" name="bid_opening_time">
       <Position>13</Position>
       <Comment>开标时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="235" name="bid_opening_address">
+    <column id="355" parent="237" name="bid_opening_address">
       <Position>14</Position>
       <Comment>开标地点</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="235" name="budget_money">
+    <column id="356" parent="237" name="budget_money">
       <Position>15</Position>
       <Comment>预算金额</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="235" name="project_contact">
+    <column id="357" parent="237" name="project_contact">
       <Position>16</Position>
       <Comment>项目联系人</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="235" name="project_phone">
+    <column id="358" parent="237" name="project_phone">
       <Position>17</Position>
       <Comment>项目联系电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="235" name="unit_address">
+    <column id="359" parent="237" name="unit_address">
       <Position>18</Position>
       <Comment>采购单位地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="235" name="unit_contact_infor">
+    <column id="360" parent="237" name="unit_contact_infor">
       <Position>19</Position>
       <Comment>采购单位联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="235" name="agent_name">
+    <column id="361" parent="237" name="agent_name">
       <Position>20</Position>
       <Comment>代理机构名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="235" name="agent_address">
+    <column id="362" parent="237" name="agent_address">
       <Position>21</Position>
       <Comment>代理机构地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="235" name="agent_contact">
+    <column id="363" parent="237" name="agent_contact">
       <Position>22</Position>
       <Comment>代理机构联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="312" parent="235" name="text_path">
+    <column id="364" parent="237" name="text_path">
       <Position>23</Position>
       <Comment>文本路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="235" name="file_save_path">
+    <column id="365" parent="237" name="file_save_path">
       <Position>24</Position>
       <Comment>更正公告文件路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="314" parent="235" name="url_unique">
+    <index id="366" parent="237" name="url_unique">
       <Comment>每个页面仅仅读取一次</Comment>
       <ColNames>url</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="315" parent="235" name="PRIMARY">
+    <key id="367" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="316" parent="235" name="url_unique">
+    <key id="368" parent="237" name="url_unique">
       <ColNames>url</ColNames>
       <UnderlyingIndexName>url_unique</UnderlyingIndexName>
     </key>
-    <column id="317" parent="236" name="id">
+    <column id="369" parent="238" name="id">
       <Position>1</Position>
+      <Comment>id</Comment>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="236" name="project_num">
+    <column id="370" parent="238" name="project_num">
       <Position>2</Position>
       <Comment>项目编号</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1468,28 +1788,28 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="319" parent="236" name="project_name">
+    <column id="371" parent="238" name="project_name">
       <Position>3</Position>
       <Comment>项目名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="320" parent="236" name="items">
+    <column id="372" parent="238" name="items">
       <Position>4</Position>
       <Comment>品目</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="321" parent="236" name="url">
+    <column id="373" parent="238" name="url">
       <Position>5</Position>
       <Comment>网址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="322" parent="236" name="soft_hard">
+    <column id="374" parent="238" name="soft_hard">
       <Position>6</Position>
       <Comment>软硬件</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1497,153 +1817,310 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="323" parent="236" name="unit">
+    <column id="375" parent="238" name="unit">
       <Position>7</Position>
       <Comment>采购单位</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="324" parent="236" name="regions">
+    <column id="376" parent="238" name="regions">
       <Position>8</Position>
       <Comment>行政区域</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="236" name="annou_time">
+    <column id="377" parent="238" name="annou_time">
       <Position>9</Position>
       <Comment>公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="236" name="first_annou_time">
+    <column id="378" parent="238" name="bidding_doc_time">
+      <Position>10</Position>
+      <Comment>招标文件时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="379" parent="238" name="bidding_doc_price">
+      <Position>11</Position>
+      <Comment>招标文件售价</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="238" name="bidding_doc_address">
+      <Position>12</Position>
+      <Comment>招标文件地址</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="381" parent="238" name="bid_opening_time">
+      <Position>13</Position>
+      <Comment>开标时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="382" parent="238" name="bid_opening_address">
+      <Position>14</Position>
+      <Comment>开标地点</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="238" name="budget_money">
+      <Position>15</Position>
+      <Comment>预算金额</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="238" name="project_contact">
+      <Position>16</Position>
+      <Comment>项目联系人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="238" name="project_phone">
+      <Position>17</Position>
+      <Comment>项目联系电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="386" parent="238" name="unit_address">
+      <Position>18</Position>
+      <Comment>采购单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="387" parent="238" name="unit_contact_infor">
+      <Position>19</Position>
+      <Comment>采购单位联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="388" parent="238" name="agent_name">
+      <Position>20</Position>
+      <Comment>代理机构名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="389" parent="238" name="agent_address">
+      <Position>21</Position>
+      <Comment>代理机构地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="238" name="agent_contact">
+      <Position>22</Position>
+      <Comment>代理机构联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="391" parent="238" name="text_path">
+      <Position>23</Position>
+      <Comment>文本路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="238" name="file_save_path">
+      <Position>24</Position>
+      <Comment>更正公告文件路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="393" parent="238" name="url_unique">
+      <Comment>每个页面仅仅读取一次</Comment>
+      <ColNames>url</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="394" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="395" parent="238" name="url_unique">
+      <ColNames>url</ColNames>
+      <UnderlyingIndexName>url_unique</UnderlyingIndexName>
+    </key>
+    <column id="396" parent="239" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="239" name="project_num">
+      <Position>2</Position>
+      <Comment>项目编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="239" name="project_name">
+      <Position>3</Position>
+      <Comment>项目名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="239" name="items">
+      <Position>4</Position>
+      <Comment>品目</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="400" parent="239" name="url">
+      <Position>5</Position>
+      <Comment>网址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="401" parent="239" name="soft_hard">
+      <Position>6</Position>
+      <Comment>软硬件</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="402" parent="239" name="unit">
+      <Position>7</Position>
+      <Comment>采购单位</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="403" parent="239" name="regions">
+      <Position>8</Position>
+      <Comment>行政区域</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="404" parent="239" name="annou_time">
+      <Position>9</Position>
+      <Comment>公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="405" parent="239" name="first_annou_time">
       <Position>10</Position>
       <Comment>首次公告日期</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="236" name="correct_time">
+    <column id="406" parent="239" name="correct_time">
       <Position>11</Position>
       <Comment>更正日期</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="328" parent="236" name="project_contact">
+    <column id="407" parent="239" name="project_contact">
       <Position>12</Position>
       <Comment>项目联系人</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="236" name="project_phone">
+    <column id="408" parent="239" name="project_phone">
       <Position>13</Position>
       <Comment>项目联系电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="330" parent="236" name="unit_address">
+    <column id="409" parent="239" name="unit_address">
       <Position>14</Position>
       <Comment>采购单位地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="331" parent="236" name="unit_contact_infor">
+    <column id="410" parent="239" name="unit_contact_infor">
       <Position>15</Position>
       <Comment>采购单位联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="332" parent="236" name="agent_name">
+    <column id="411" parent="239" name="agent_name">
       <Position>16</Position>
       <Comment>代理机构名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="333" parent="236" name="agent_address">
+    <column id="412" parent="239" name="agent_address">
       <Position>17</Position>
       <Comment>代理机构地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="236" name="agent_contact">
+    <column id="413" parent="239" name="agent_contact">
       <Position>18</Position>
       <Comment>代理机构联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="236" name="text_path">
+    <column id="414" parent="239" name="text_path">
       <Position>19</Position>
       <Comment>文本路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="336" parent="236" name="file_save_path">
+    <column id="415" parent="239" name="file_save_path">
       <Position>20</Position>
       <Comment>更正公告文件路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="337" parent="236" name="url_unique">
+    <index id="416" parent="239" name="url_unique">
       <Comment>每个页面仅仅读取一次</Comment>
       <ColNames>url</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="338" parent="236" name="PRIMARY">
+    <key id="417" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="339" parent="236" name="url_unique">
+    <key id="418" parent="239" name="url_unique">
       <ColNames>url</ColNames>
       <UnderlyingIndexName>url_unique</UnderlyingIndexName>
     </key>
-    <column id="340" parent="237" name="id">
+    <column id="419" parent="240" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="237" name="url">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="342" parent="237" name="type">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="343" parent="237" name="kind">
-      <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="344" parent="237" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="345" parent="238" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="346" parent="238" name="project_num">
+    <column id="420" parent="240" name="project_num">
       <Position>2</Position>
       <Comment>项目编号</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1651,28 +2128,28 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="238" name="project_name">
+    <column id="421" parent="240" name="project_name">
       <Position>3</Position>
       <Comment>项目名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="348" parent="238" name="items">
+    <column id="422" parent="240" name="items">
       <Position>4</Position>
       <Comment>品目</Comment>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="238" name="url">
+    <column id="423" parent="240" name="url">
       <Position>5</Position>
       <Comment>网址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="350" parent="238" name="soft_hard">
+    <column id="424" parent="240" name="soft_hard">
       <Position>6</Position>
       <Comment>软硬件</Comment>
       <DataType>varchar(255)|0s</DataType>
@@ -1680,129 +2157,509 @@
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="351" parent="238" name="unit">
+    <column id="425" parent="240" name="unit">
       <Position>7</Position>
       <Comment>采购单位</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="238" name="regions">
+    <column id="426" parent="240" name="regions">
       <Position>8</Position>
       <Comment>行政区域</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="238" name="annou_time">
+    <column id="427" parent="240" name="annou_time">
       <Position>9</Position>
       <Comment>公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="354" parent="238" name="tender_annou_time">
+    <column id="428" parent="240" name="first_annou_time">
+      <Position>10</Position>
+      <Comment>首次公告日期</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="240" name="correct_time">
+      <Position>11</Position>
+      <Comment>更正日期</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="430" parent="240" name="project_contact">
+      <Position>12</Position>
+      <Comment>项目联系人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="431" parent="240" name="project_phone">
+      <Position>13</Position>
+      <Comment>项目联系电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="432" parent="240" name="unit_address">
+      <Position>14</Position>
+      <Comment>采购单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="433" parent="240" name="unit_contact_infor">
+      <Position>15</Position>
+      <Comment>采购单位联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="434" parent="240" name="agent_name">
+      <Position>16</Position>
+      <Comment>代理机构名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="240" name="agent_address">
+      <Position>17</Position>
+      <Comment>代理机构地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="240" name="agent_contact">
+      <Position>18</Position>
+      <Comment>代理机构联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="240" name="text_path">
+      <Position>19</Position>
+      <Comment>文本路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="240" name="file_save_path">
+      <Position>20</Position>
+      <Comment>更正公告文件路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="439" parent="240" name="url_unique">
+      <Comment>每个页面仅仅读取一次</Comment>
+      <ColNames>url</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="440" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="441" parent="240" name="url_unique">
+      <ColNames>url</ColNames>
+      <UnderlyingIndexName>url_unique</UnderlyingIndexName>
+    </key>
+    <column id="442" parent="241" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="443" parent="241" name="url">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="444" parent="241" name="type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="445" parent="241" name="kind">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="446" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="447" parent="242" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="448" parent="242" name="url">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="449" parent="242" name="type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="450" parent="242" name="kind">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="451" parent="242" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="452" parent="243" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="243" name="project_num">
+      <Position>2</Position>
+      <Comment>项目编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="243" name="project_name">
+      <Position>3</Position>
+      <Comment>项目名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="455" parent="243" name="items">
+      <Position>4</Position>
+      <Comment>品目</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="456" parent="243" name="url">
+      <Position>5</Position>
+      <Comment>网址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="457" parent="243" name="soft_hard">
+      <Position>6</Position>
+      <Comment>软硬件</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="458" parent="243" name="unit">
+      <Position>7</Position>
+      <Comment>采购单位</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="459" parent="243" name="regions">
+      <Position>8</Position>
+      <Comment>行政区域</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="243" name="annou_time">
+      <Position>9</Position>
+      <Comment>公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="243" name="tender_annou_time">
       <Position>10</Position>
       <Comment>招标公告时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="355" parent="238" name="winning_time">
+    <column id="462" parent="243" name="winning_time">
       <Position>11</Position>
       <Comment>中标时间</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="356" parent="238" name="experts">
+    <column id="463" parent="243" name="experts">
       <Position>12</Position>
       <Comment>专家名单</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="238" name="total_money">
+    <column id="464" parent="243" name="total_money">
       <Position>13</Position>
       <Comment>总中标金额</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="358" parent="238" name="project_contact">
+    <column id="465" parent="243" name="project_contact">
       <Position>14</Position>
       <Comment>项目联系人</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="359" parent="238" name="project_phone">
+    <column id="466" parent="243" name="project_phone">
       <Position>15</Position>
       <Comment>项目联系电话</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="238" name="unit_address">
+    <column id="467" parent="243" name="unit_address">
       <Position>16</Position>
       <Comment>采购单位地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="238" name="unit_contact_infor">
+    <column id="468" parent="243" name="unit_contact_infor">
       <Position>17</Position>
       <Comment>采购单位联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="362" parent="238" name="agent_name">
+    <column id="469" parent="243" name="agent_name">
       <Position>18</Position>
       <Comment>代理机构名称</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="363" parent="238" name="agent_address">
+    <column id="470" parent="243" name="agent_address">
       <Position>19</Position>
       <Comment>代理机构地址</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="364" parent="238" name="agent_contact">
+    <column id="471" parent="243" name="agent_contact">
       <Position>20</Position>
       <Comment>代理机构联系方式</Comment>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="365" parent="238" name="text_path">
+    <column id="472" parent="243" name="text_path">
       <Position>21</Position>
       <Comment>文本路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="366" parent="238" name="file_save_path">
+    <column id="473" parent="243" name="file_save_path">
       <Position>22</Position>
       <Comment>更正公告文件路径</Comment>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="367" parent="238" name="url_unique">
+    <index id="474" parent="243" name="url_unique">
       <Comment>每个页面仅仅读取一次</Comment>
       <ColNames>url</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="368" parent="238" name="PRIMARY">
+    <key id="475" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="369" parent="238" name="url_unique">
+    <key id="476" parent="243" name="url_unique">
+      <ColNames>url</ColNames>
+      <UnderlyingIndexName>url_unique</UnderlyingIndexName>
+    </key>
+    <column id="477" parent="244" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="478" parent="244" name="project_num">
+      <Position>2</Position>
+      <Comment>项目编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="479" parent="244" name="project_name">
+      <Position>3</Position>
+      <Comment>项目名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="480" parent="244" name="items">
+      <Position>4</Position>
+      <Comment>品目</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="481" parent="244" name="url">
+      <Position>5</Position>
+      <Comment>网址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="482" parent="244" name="soft_hard">
+      <Position>6</Position>
+      <Comment>软硬件</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="483" parent="244" name="unit">
+      <Position>7</Position>
+      <Comment>采购单位</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="484" parent="244" name="regions">
+      <Position>8</Position>
+      <Comment>行政区域</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="485" parent="244" name="annou_time">
+      <Position>9</Position>
+      <Comment>公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="486" parent="244" name="tender_annou_time">
+      <Position>10</Position>
+      <Comment>招标公告时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="244" name="winning_time">
+      <Position>11</Position>
+      <Comment>中标时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="244" name="experts">
+      <Position>12</Position>
+      <Comment>专家名单</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="489" parent="244" name="total_money">
+      <Position>13</Position>
+      <Comment>总中标金额</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="490" parent="244" name="project_contact">
+      <Position>14</Position>
+      <Comment>项目联系人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="491" parent="244" name="project_phone">
+      <Position>15</Position>
+      <Comment>项目联系电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="492" parent="244" name="unit_address">
+      <Position>16</Position>
+      <Comment>采购单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="493" parent="244" name="unit_contact_infor">
+      <Position>17</Position>
+      <Comment>采购单位联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="494" parent="244" name="agent_name">
+      <Position>18</Position>
+      <Comment>代理机构名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="495" parent="244" name="agent_address">
+      <Position>19</Position>
+      <Comment>代理机构地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="496" parent="244" name="agent_contact">
+      <Position>20</Position>
+      <Comment>代理机构联系方式</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="497" parent="244" name="text_path">
+      <Position>21</Position>
+      <Comment>文本路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="498" parent="244" name="file_save_path">
+      <Position>22</Position>
+      <Comment>更正公告文件路径</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="499" parent="244" name="url_unique">
+      <Comment>每个页面仅仅读取一次</Comment>
+      <ColNames>url</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="500" parent="244" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="501" parent="244" name="url_unique">
       <ColNames>url</ColNames>
       <UnderlyingIndexName>url_unique</UnderlyingIndexName>
     </key>

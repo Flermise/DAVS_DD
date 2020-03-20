@@ -23,68 +23,81 @@ class CcgpGovCnSpider(scrapy.Spider):
         self.cursor.execute("select `name` from college")
         result = self.cursor.fetchall()
         schools = [i[0] for i in result]
-        for pinMu in [1, 3]:
-            for school in schools:
-                data = {
-                    'searchtype': 1,
-                    'page_index': 1,
-                    'bidSort': 0,
-                    'buyerName': "",
-                    'projectId': "",
-                    'pinMu': pinMu,  # 1 货物类 3服务类
-                    'bidType': 11,  # 1招标 7中标 8更正  11成交 12废标
-                    'dbselect': 'bidx',
-                    'kw': school,
-                    'start_time': '2019:01:01',
-                    'end_time': '2019:12:31',
-                    'timeType': 6,
-                    'displayZone': "",
-                    'zoneId': "",
-                    'pppStatus': 0,
-                    'agentName': ""
-                }
+        year = 2018
+        if year == 2018:
+            start_time = '2018:01:01'
+            end_time = '2018:12:31'
+        elif year == 2017:
+            start_time = '2017:01:01'
+            end_time = '2017:12:31'
+        for bidType in [12, 7, 8, 11, 1]:
+            for pinMu in [1, 3]:
+                for school in schools:
+                    data = {
+                        'searchtype': 1,
+                        'page_index': 1,
+                        'bidSort': 0,
+                        'buyerName': "",
+                        'projectId': "",
+                        'pinMu': pinMu,  # 1 货物类 3服务类
+                        'bidType': bidType,  # 1招标 7中标 8更正  11成交 12废标
+                        'dbselect': 'bidx',
+                        'kw': school,
+                        'start_time': start_time,
+                        'end_time': end_time,
+                        'timeType': 6,
+                        'displayZone': "",
+                        'zoneId': "",
+                        'pppStatus': 0,
+                        'agentName': ""
+                    }
 
-                params = urlencode(data)
-                url = self.start_urls[0] + '/bxsearch?' + params
-                page_type = ''
-                kind = ''
-                if data['pinMu'] == 1:
-                    kind = '货物类'
-                elif data['pinMu'] == 3:
-                    kind = '服务类'
+                    params = urlencode(data)
+                    url = self.start_urls[0] + '/bxsearch?' + params
+                    page_type = ''
+                    kind = ''
+                    if data['pinMu'] == 1:
+                        kind = '货物类'
+                    elif data['pinMu'] == 3:
+                        kind = '服务类'
 
-                if data['bidType'] == 1:
-                    page_type = '公开招标'
-                elif data['bidType'] == 7:
-                    page_type = '中标公告'
-                elif data['bidType'] == 8:
-                    page_type = '更正公告'
-                elif data['bidType'] == 11:
-                    page_type = '成交公告'
-                elif data['bidType'] == 12:
-                    page_type = '废标公告'
+                    if data['bidType'] == 1:
+                        page_type = '公开招标'
+                    elif data['bidType'] == 7:
+                        page_type = '中标公告'
+                    elif data['bidType'] == 8:
+                        page_type = '更正公告'
+                    elif data['bidType'] == 11:
+                        page_type = '成交公告'
+                    elif data['bidType'] == 12:
+                        page_type = '废标公告'
 
-                yield Request(url, meta={'kind': kind, 'type': page_type}, callback=self.parse, dont_filter=True)
+                    yield Request(url, meta={'kind': kind, 'type': page_type, 'year': year}, callback=self.parse,
+                                  dont_filter=True)
 
     def parse(self, response):
         url_num = int(response.xpath('/html/body/div[5]/div[1]/div/p[1]/span[2]/text()').extract_first(""))
         url = response.url
         page_type = response.meta['type']
         page_kind = response.meta['kind']
+        page_year = response.meta['year']
         if (url_num > 0) and (url_num <= 20):
-            yield Request(url, meta={'kind': page_kind, 'type': page_type}, callback=self.parse_page)
+            yield Request(url, meta={'kind': page_kind, 'type': page_type, 'year': page_year}, callback=self.parse_page,
+                          dont_filter=True)
         elif url_num >= 20:
             page_num = int(url_num) // 20 + 1
             lts = url.split('&')
             for i in range(page_num):
                 lts[1] = 'page_index=' + str(i + 1)
                 next_url = '&'.join(lts)
-                yield Request(next_url, meta={'kind': page_kind, 'type': page_type}, callback=self.parse_page)
+                yield Request(next_url, meta={'kind': page_kind, 'type': page_type, 'year': page_year},
+                              callback=self.parse_page, dont_filter=True)
 
     def parse_page(self, response):
         lis = response.xpath('/html/body/div[5]/div[2]/div/div/div[1]/ul/li')
         page_type = response.meta['type']
         page_kind = response.meta['kind']
+        page_year = response.meta['year']
         for i in range(len(lis)):
             item = PageUrlItem()
             post_url = response.xpath(
@@ -92,23 +105,24 @@ class CcgpGovCnSpider(scrapy.Spider):
             item['url'] = post_url
             item['ptype'] = page_type
             item['kind'] = page_kind
+            item['year'] = page_year
             yield item
             if page_type == '公开招标':
-                yield Request(post_url, callback=self.parse_detail_1)
+                yield Request(post_url, meta={'year': page_year}, callback=self.parse_detail_1)
             elif page_type == '中标公告':
-                yield Request(post_url, callback=self.parse_detail_7)
+                yield Request(post_url, meta={'year': page_year}, callback=self.parse_detail_7)
             elif page_type == '更正公告':
-                yield Request(post_url, callback=self.parse_detail_8)
+                yield Request(post_url, meta={'year': page_year}, callback=self.parse_detail_8)
             elif page_type == '成交公告':
-                yield Request(post_url, callback=self.parse_detail_11)
+                yield Request(post_url, meta={'year': page_year}, callback=self.parse_detail_11)
             elif page_type == '废标公告':
-                yield Request(post_url, callback=self.parse_detail_12)
+                yield Request(post_url, meta={'year': page_year}, callback=self.parse_detail_12)
 
     def parse_detail_1(self, response):
         item = GKZBItem()
-        project_name = response.xpath(
-            '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[4]/text()').extract_first("")
-        item['project_num'] = project_name
+        item['year'] = response.meta['year']
+        project_num = self.get_project_num(response)
+        item['project_num'] = project_num
         item['project_name'] = response.xpath(
             '//*[@id="detail"]/div[2]/div/div[2]/div/div[2]/table/tr[2]/td[2]/text()').extract_first("")
         item['items'] = response.xpath(
@@ -166,11 +180,9 @@ class CcgpGovCnSpider(scrapy.Spider):
 
     def parse_detail_7(self, response):
         item = ZBGGItem()
-        project_name = response.xpath(
-            '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[5]/text()').extract_first("")
-        if project_name != "":
-            project_name = project_name.split('：')[1].strip()
-        item['project_num'] = project_name
+        item['year'] = response.meta['year']
+        project_num = self.get_project_num(response)
+        item['project_num'] = project_num
         item['project_name'] = response.xpath(
             '//*[@id="detail"]/div[2]/div/div[2]/div/div[2]/table/tr[2]/td[2]/text()').extract_first("")
         item['items'] = response.xpath(
@@ -224,8 +236,9 @@ class CcgpGovCnSpider(scrapy.Spider):
 
     def parse_detail_8(self, response):
         item = GZGGItem()
-        item['project_num'] = response.xpath(
-            '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[2]/text()').extract_first("")
+        item['year'] = response.meta['year']
+        project_num = self.get_project_num(response)
+        item['project_num'] = project_num
         item['project_name'] = response.xpath(
             '//*[@id="detail"]/div[2]/div/div[2]/div/div[2]/table/tr[2]/td[2]/text()').extract_first("")
         item['items'] = response.xpath(
@@ -275,11 +288,9 @@ class CcgpGovCnSpider(scrapy.Spider):
 
     def parse_detail_11(self, response):
         item = CJGGItem()
-        project_name = response.xpath(
-            '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[5]/text()').extract_first("")
-        if project_name != "":
-            project_name = project_name.split('：')[1].strip()
-        item['project_num'] = project_name
+        item['year'] = response.meta['year']
+        project_num = self.get_project_num(response)
+        item['project_num'] = project_num
         item['project_name'] = response.xpath(
             '//*[@id="detail"]/div[2]/div/div[2]/div/div[2]/table/tr[2]/td[2]/text()').extract_first("")
         item['items'] = response.xpath(
@@ -333,11 +344,9 @@ class CcgpGovCnSpider(scrapy.Spider):
 
     def parse_detail_12(self, response):
         item = FBLBGGItem()
-        project_name = response.xpath(
-            '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[5]/text()').extract_first("")
-        if project_name != "":
-            project_name = project_name.split('：')[1].strip()
-        item['project_num'] = project_name
+        item['year'] = response.meta['year']
+        project_num = self.get_project_num(response)
+        item['project_num'] = project_num
         item['project_name'] = response.xpath(
             '//*[@id="detail"]/div[2]/div/div[2]/div/div[2]/table/tr[2]/td[2]/text()').extract_first("")
         item['items'] = response.xpath(
@@ -380,6 +389,30 @@ class CcgpGovCnSpider(scrapy.Spider):
                 item['file_save_path'] = file_save_path
                 item['file_urls'] = parse.urljoin(response.url, '/oss/download?uuid=' + file_id)
         yield item
+
+    def get_project_num(self, response):
+
+        project_num = response.xpath(
+            '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[4]/text()').extract_first("except")
+        if project_num == "except":
+            project_num = response.xpath(
+                '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[5]/text()').extract_first("except")
+        if project_num == "except":
+            project_num = response.xpath(
+                '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[6]/span/text()').extract_first("except")
+        if project_num == "except":
+            project_num = response.xpath(
+                '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[6]/text()').extract_first("except")
+        if project_num == "except":
+            project_num = response.xpath(
+                '//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[2]/text()').extract_first("except")
+        if project_num != "except":
+            nums = project_num.split('：')
+            if len(nums) == 2:
+                project_num = nums[1].strip()
+        else:
+            project_num = ""
+        return project_num
 
 
 def get_txt_content(url):

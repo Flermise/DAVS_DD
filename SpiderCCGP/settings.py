@@ -104,10 +104,10 @@ TXT_PATH = 'D:/Code/project-python/SpiderCCGP/txt'
 from datetime import datetime
 
 # 文件及路径，log目录需要先建好
-# LOG_ENABLED = True
+LOG_ENABLED = True
 # today = datetime.now()
 # log_file_path = "log/scrapy_{}_{}_{}.log".format(today.year, today.month, today.day)
-# LOG_LEVEL = 'WARNING'
+# LOG_LEVEL = 'INFO'
 # LOG_FILE = log_file_path
 
 # MYSQL 配置
@@ -119,4 +119,3 @@ MYSQL_PASSWORD = '123456'
 # Redis 配置
 REDIS_HOST = '127.0.0.1'
 REDIS_PASSWORD = '123456'
-

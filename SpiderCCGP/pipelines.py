@@ -116,15 +116,16 @@ class MySQLPipeline(object):
         self.cursor = self.conn.cursor()
 
     def _do_page_url_insert(self, item):
-        insert_sql = "insert into page_url(url,type,kind) values (%s, %s, %s)"
+        database_name = 'page_url_' + str(item['year'])
+        insert_sql = "insert into " + database_name + "(url,type,kind) values (%s, %s, %s)"
         self.cursor.execute(insert_sql, (item['url'], item['ptype'], item['kind']))
         self.conn.commit()
 
     def _do_GZGG_insert(self, item):
-        insert_sql = """
-                                 INSERT INTO `gz_2019`(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `first_annou_time`, `correct_time`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`)
-                                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-                                 """
+        database_name = 'gz_' + str(item['year'])
+        insert_sql = "INSERT INTO " + database_name + """(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `first_annou_time`, `correct_time`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`)
+                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                     """
         self.cursor.execute(insert_sql, (
             item['project_num'], item['project_name'], item['items'], item['url'], item['soft_hard'], item['unit'],
             item['regions'],
@@ -136,9 +137,9 @@ class MySQLPipeline(object):
         self.conn.commit()
 
     def _do_FBLBGG_insert(self, item):
-        insert_sql = """
-                     INSERT INTO `fblb_2019`(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`)
-                     values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s))
+        database_name = 'fblb_' + str(item['year'])
+        insert_sql = "INSERT INTO " + database_name + """(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`)
+                     values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                      """
         self.cursor.execute(insert_sql, (
             item['project_num'], item['project_name'], item['items'], item['url'], item['soft_hard'], item['unit'],
@@ -150,8 +151,8 @@ class MySQLPipeline(object):
         self.conn.commit()
 
     def _do_ZBGG_insert(self, item):
-        insert_sql = """
-         INSERT INTO `zb_2019`(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `tender_annou_time`, `winning_time`, `experts`, `total_money`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`) 
+        database_name = 'zb_' + str(item['year'])
+        insert_sql = "INSERT INTO " + database_name + """(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `tender_annou_time`, `winning_time`, `experts`, `total_money`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`) 
          VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
          """
         self.cursor.execute(insert_sql, (
@@ -164,8 +165,8 @@ class MySQLPipeline(object):
         self.conn.commit()
 
     def _do_GKZB_insert(self, item):
-        insert_sql = """
-           INSERT INTO `gkzb_2019`(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `bidding_doc_time`, `bidding_doc_price`, `bidding_doc_address`, `bid_opening_time`, `bid_opening_address`, `budget_money`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`)
+        database_name = 'gkzb_' + str(item['year'])
+        insert_sql = "INSERT INTO " + database_name + """(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `bidding_doc_time`, `bidding_doc_price`, `bidding_doc_address`, `bid_opening_time`, `bid_opening_address`, `budget_money`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`)
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) 
         """
         self.cursor.execute(insert_sql, (
@@ -178,8 +179,8 @@ class MySQLPipeline(object):
         self.conn.commit()
 
     def _do_CJGG_insert(self, item):
-        insert_sql = """
-         INSERT INTO `cj_2019`(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `tender_annou_time`, `done_time`, `team_member`, `total_money`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`) 
+        database_name = 'cj_' + str(item['year'])
+        insert_sql = "INSERT INTO " + database_name + """(`project_num`, `project_name`, `items`, `url`, `soft_hard`, `unit`, `regions`, `annou_time`, `tender_annou_time`, `done_time`, `team_member`, `total_money`, `project_contact`, `project_phone`, `unit_address`, `unit_contact_infor`, `agent_name`, `agent_address`, `agent_contact`, `text_path`, `file_save_path`) 
          VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
          """
         self.cursor.execute(insert_sql, (

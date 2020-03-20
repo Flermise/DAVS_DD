@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
-import scrapy
 
 # -*- coding: utf-8 -*-
 import re
 from urllib import parse
 from urllib.parse import urlencode
 
+import pymysql
 import requests
 import scrapy
 from bs4 import BeautifulSoup
 from scrapy.http import Request
-import pymysql
 
 from SpiderCCGP.items import PageUrlItem, GZGGItem, FBLBGGItem, ZBGGItem, GKZBItem, CJGGItem
 
@@ -23,16 +22,20 @@ class ExceptionSpider(scrapy.Spider):
     cursor = conn.cursor()
 
     def start_requests(self):
-        select_sql  = """   SELECT url FROM `page_url` 
-                            WHERE
-	                        type = '公开招标' 
-	                        AND page_url.url NOT IN ( SELECT url FROM gkzb_2019 );
-        """
-        self.cursor.execute(select_sql)
+        self.cursor.execute("select url from gz_2018")
         result = self.cursor.fetchall()
         urls = [i[0] for i in result]
         for url in urls:
-            yield Request(url, callback=self.parse_detail_1)
+            yield Request(url, callback=self.changNum)
+
+
+    def changNum(self,response):
+        num = response.xpath('//*[@id="detail"]/div[2]/div/div[2]/div/div[3]/div/p[2]/text()').extract_first("")
+        update_sql = """
+        UPDATE gz_2018 set project_num = %s where url = %s;
+        """
+        self.cursor.execute(update_sql, (num, response.url))
+        self.conn.commit()
         # self.cursor.execute("select `name` from college")
         # result = self.cursor.fetchall()
         # schools = [i[0] for i in result]
@@ -45,7 +48,7 @@ class ExceptionSpider(scrapy.Spider):
         #             'buyerName': "",
         #             'projectId': "",
         #             'pinMu': pinMu,  # 1 货物类 3服务类
-        #             'bidType': 1,  # 1招标 7中标 8更正  11成交 12废标
+        #             'bidType': 7,  # 1招标 7中标 8更正  11成交 12废标
         #             'dbselect': 'bidx',
         #             'kw': school,
         #             'start_time': '2019:01:01',
@@ -75,7 +78,7 @@ class ExceptionSpider(scrapy.Spider):
         #         elif data['bidType'] == 12:
         #             page_type = '废标公告'
         #
-        #         yield Request(url, meta={'kind': kind, 'type': page_type}, callback=self.parse, dont_filter=True)
+        #         yield Request(url, meta={'kind': kind, 'type': page_type}, callback=self.parse)
 
     def parse(self, response):
         url_num = int(response.xpath('/html/body/div[5]/div[1]/div/p[1]/span[2]/text()').extract_first(""))
@@ -104,14 +107,14 @@ class ExceptionSpider(scrapy.Spider):
             item['ptype'] = page_type
             item['kind'] = page_kind
             yield item
-            if page_type == '更正公告':
-                yield Request(post_url, callback=self.parse_detail_8)
-            elif page_type == '废标公告':
-                yield Request(post_url, callback=self.parse_detail_12)
-            elif page_type == '中标公告':
-                yield Request(post_url, callback=self.parse_detail_7)
-            elif page_type == '公开招标':
-                yield Request(post_url, callback=self.parse_detail_1)
+            # if page_type == '更正公告':
+            #     yield Request(post_url, callback=self.parse_detail_8)
+            # elif page_type == '废标公告':
+            #     yield Request(post_url, callback=self.parse_detail_12)
+            # elif page_type == '中标公告':
+            #     yield Request(post_url, callback=self.parse_detail_7)
+            # elif page_type == '公开招标':
+            #     yield Request(post_url, callback=self.parse_detail_1)
 
     def parse_detail_1(self, response):
         item = GKZBItem()

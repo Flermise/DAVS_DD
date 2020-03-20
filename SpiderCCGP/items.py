@@ -19,6 +19,7 @@ class PageUrlItem(scrapy.Item):
     url = scrapy.Field()  # 项目url
     ptype = scrapy.Field()  # 公告类型
     kind = scrapy.Field()  # 公告种类
+    year = scrapy.Field()  # 年份
 
 
 class GKZBItem(scrapy.Item):
@@ -49,6 +50,7 @@ class GKZBItem(scrapy.Item):
     file_save_path = scrapy.Field()  # 废标公告文件路径
     file_urls = scrapy.Field()  # 文件下载url
     files = scrapy.Field()  # 文件
+    year = scrapy.Field()  # 年份
 
 
 class GZGGItem(scrapy.Item):
@@ -75,6 +77,7 @@ class GZGGItem(scrapy.Item):
     file_save_path = scrapy.Field()  # 更正公告文件路径
     file_urls = scrapy.Field()  # 文件下载url
     files = scrapy.Field()  # 文件
+    year = scrapy.Field()  # 年份
 
 
 class FBLBGGItem(scrapy.Item):
@@ -99,6 +102,7 @@ class FBLBGGItem(scrapy.Item):
     file_save_path = scrapy.Field()  # 废标公告文件路径
     file_urls = scrapy.Field()  # 文件下载url
     files = scrapy.Field()  # 文件
+    year = scrapy.Field()  # 年份
 
 
 class ZBGGItem(scrapy.Item):
@@ -127,6 +131,7 @@ class ZBGGItem(scrapy.Item):
     file_save_path = scrapy.Field()  # 废标公告文件路径
     file_urls = scrapy.Field()  # 文件下载url
     files = scrapy.Field()  # 文件
+    year = scrapy.Field()  # 年份
 
 
 class CJGGItem(scrapy.Item):
@@ -155,3 +160,4 @@ class CJGGItem(scrapy.Item):
     file_save_path = scrapy.Field()  # 废标公告文件路径
     file_urls = scrapy.Field()  # 文件下载url
     files = scrapy.Field()  # 文件
+    year = scrapy.Field()  # 年份
